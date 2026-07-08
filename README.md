@@ -17,6 +17,7 @@ p <- violin_plot(
   data,
   x = "group",
   y = "value",
+  fill_col = NULL,
   template = "raincloud",
   print_params = TRUE
 )
@@ -32,7 +33,13 @@ outliers, and light missingness. The examples use a single long-format CSV,
 by changing only the template and mapping parameters.
 
 ```r
-violin_template_examples()[, c("template", "claim", "filter_label", "x", "facet")]
+violin_template_examples()[, c("template", "claim", "filter_label", "x", "fill_col", "facet")]
+```
+
+Use `fill_col` when the x-axis grouping and color grouping should be different:
+
+```r
+violin_plot(data, x = "pair", y = "value", fill_col = "group")
 ```
 
 Available templates:

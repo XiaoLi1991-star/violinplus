@@ -6,6 +6,7 @@ violin_plot(
   data,
   x,
   y,
+  fill_col = NULL,
   template = "violin_box",
   facet = NULL,
   subject = NULL,
@@ -28,6 +29,7 @@ violin_plot(
 \arguments{
 \item{data}{A data frame.}
 \item{x, y}{Column names for group and numeric value.}
+\item{fill_col}{Optional column used for fill and color grouping. Defaults to \code{x}.}
 \item{template}{Template ID from \code{\link[=violin_templates]{violin_templates()}}.}
 \item{facet}{Optional facet column.}
 \item{subject}{Optional subject ID column for paired templates.}

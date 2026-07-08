@@ -2,6 +2,7 @@
 #'
 #' @param data A data frame.
 #' @param x,y Column names for group and numeric value.
+#' @param fill_col Optional column used for fill and color grouping. Defaults to `x`.
 #' @param template Template ID from [violin_templates()].
 #' @param facet Optional facet column.
 #' @param subject Optional subject ID column for paired templates.
@@ -20,12 +21,13 @@
 violin_plot <- function(data,
                         x,
                         y,
+                        fill_col = NULL,
                         template = "violin_box",
                         facet = NULL,
                         subject = NULL,
                         palette = NULL,
                         comparisons = NULL,
-  p_label = c("p.signif", "p.format", "letters"),
+                        p_label = c("p.signif", "p.format", "letters"),
                         title = NULL,
                         subtitle = NULL,
                         caption = NULL,
@@ -42,9 +44,10 @@ violin_plot <- function(data,
   }
   x <- as_column_name(x, "x")
   y <- as_column_name(y, "y")
+  fill_col <- if (is.null(fill_col)) x else as_column_name(fill_col, "fill_col")
   facet <- if (is.null(facet)) NULL else as_column_name(facet, "facet")
   subject <- if (is.null(subject)) NULL else as_column_name(subject, "subject")
-  require_columns(data, compact_list(list(x, y, facet, subject)))
+  require_columns(data, compact_list(list(x, y, fill_col, facet, subject)))
 
   template_def <- resolve_violin_template(template)
   palette <- palette %||% template_def$palette
@@ -57,11 +60,12 @@ violin_plot <- function(data,
 
   plot_data <- data
   plot_data[[y]] <- suppressWarnings(as.numeric(plot_data[[y]]))
-  plot_data <- plot_data[!is.na(plot_data[[x]]) & !is.na(plot_data[[y]]), , drop = FALSE]
+  plot_data <- plot_data[!is.na(plot_data[[x]]) & !is.na(plot_data[[fill_col]]) & !is.na(plot_data[[y]]), , drop = FALSE]
   if (nrow(plot_data) == 0L) {
-    stop("No complete rows remain for `x` and `y`.", call. = FALSE)
+    stop("No complete rows remain for `x`, `fill_col`, and `y`.", call. = FALSE)
   }
   plot_data[[x]] <- factor(plot_data[[x]], levels = unique(as.character(plot_data[[x]])))
+  plot_data[[fill_col]] <- factor(plot_data[[fill_col]], levels = unique(as.character(plot_data[[fill_col]])))
   if (template_def$id == "paired_change" && !is.null(subject)) {
     line_parts <- list(plot_data[[subject]])
     if (!is.null(facet)) {
@@ -75,6 +79,9 @@ violin_plot <- function(data,
 
   inspection <- inspect_violin_plot(plot_data, x = x, y = y, facet = facet, subject = subject, template = template_def$id)
   resolved <- inspection$resolved_params
+  resolved$x <- x
+  resolved$fill_col <- fill_col
+  resolved$fill_grouped <- !identical(fill_col, x)
   resolved$palette <- palette
   resolved$width <- resolve_auto_dimension(width, resolved$width, "width")
   resolved$height <- resolve_auto_dimension(height, resolved$height, "height")
@@ -92,9 +99,18 @@ violin_plot <- function(data,
     print_violin_params(resolved)
   }
 
-  fill_values <- template_fill_values(plot_data[[x]], pal)
-  p <- ggplot2::ggplot(plot_data, ggplot2::aes(x = .data[[x]], y = .data[[y]], fill = .data[[x]], color = .data[[x]]))
-  p <- add_template_layers(p, plot_data, x, y, subject, template_def$id, resolved, pal)
+  fill_values <- template_fill_values(plot_data[[fill_col]], pal)
+  p <- ggplot2::ggplot(
+    plot_data,
+    ggplot2::aes(
+      x = .data[[x]],
+      y = .data[[y]],
+      fill = .data[[fill_col]],
+      color = .data[[fill_col]],
+      group = interaction(.data[[x]], .data[[fill_col]], drop = TRUE)
+    )
+  )
+  p <- add_template_layers(p, plot_data, x, y, fill_col, subject, template_def$id, resolved, pal)
 
   if (isTRUE(resolved$compare)) {
     p <- add_comparison_annotations(p, plot_data, x, y, comparisons, p_label, pal)
@@ -112,9 +128,12 @@ violin_plot <- function(data,
       subtitle = subtitle,
       caption = caption,
       x = xlab %||% x,
-      y = ylab %||% y
+      y = ylab %||% y,
+      fill = fill_col,
+      color = fill_col
     ) +
     theme_violinplus(base_size = resolved$base_size) +
+    ggplot2::theme(legend.position = if (isTRUE(resolved$fill_grouped)) "right" else "none") +
     ggplot2::coord_cartesian(clip = "off")
 
   attr(p, "violinplus_params") <- resolved
@@ -134,16 +153,17 @@ template_fill_values <- function(groups, pal) {
   stats::setNames(ramp(length(levels)), levels)
 }
 
-add_template_layers <- function(p, data, x, y, subject, template_id, resolved, pal) {
+add_template_layers <- function(p, data, x, y, fill_col, subject, template_id, resolved, pal) {
+  dodge <- layer_dodge_position(resolved)
   if (template_id %in% c("violin_box", "violin_jitter", "violin_only", "two_group_sig", "facet_grid", "violin_box_letter")) {
-    p <- p + ggplot2::geom_violin(width = 0.86, alpha = 0.72, linewidth = 0.35, trim = FALSE)
+    p <- p + ggplot2::geom_violin(width = 0.86, alpha = 0.72, linewidth = 0.35, trim = FALSE, position = dodge)
   } else if (template_id %in% c("raincloud", "half_violin_box", "split_violin_letter")) {
-    p <- add_half_violin_layer(p, alpha = 0.72)
+    p <- add_half_violin_layer(p, alpha = 0.72, position = dodge)
     p <- add_half_violin_mask(p, data, x)
   }
 
   if (template_id %in% c("box_jitter", "multi_group_sig", "paired_change", "violin_box_letter", "split_violin_letter") || isTRUE(resolved$show_box)) {
-    p <- p + ggplot2::geom_boxplot(width = 0.18, outlier.shape = NA, alpha = 0.88, color = unname(pal[["line"]]), linewidth = 0.36)
+    p <- p + ggplot2::geom_boxplot(width = 0.18, outlier.shape = NA, alpha = 0.88, color = unname(pal[["line"]]), linewidth = 0.36, position = dodge)
   }
 
   if (template_id == "paired_change" && !is.null(subject)) {
@@ -156,14 +176,22 @@ add_template_layers <- function(p, data, x, y, subject, template_id, resolved, p
   }
 
   if (template_id %in% c("violin_only", "sina_density", "beeswarm_summary")) {
-    p <- add_median_segments(p, data, x, y, pal)
+    p <- add_median_segments(p, data, x, y, fill_col, resolved, pal)
   }
 
   p
 }
 
-add_half_violin_layer <- function(p, alpha = 0.72) {
-  p + ggplot2::geom_violin(width = 0.78, alpha = alpha, linewidth = 0.32, trim = FALSE)
+layer_dodge_position <- function(resolved) {
+  if (isTRUE(resolved$fill_grouped)) {
+    ggplot2::position_dodge(width = 0.78)
+  } else {
+    "identity"
+  }
+}
+
+add_half_violin_layer <- function(p, alpha = 0.72, position = "identity") {
+  p + ggplot2::geom_violin(width = 0.78, alpha = alpha, linewidth = 0.32, trim = FALSE, position = position)
 }
 
 add_half_violin_mask <- function(p, data, x) {
@@ -188,10 +216,29 @@ add_half_violin_mask <- function(p, data, x) {
 
 add_point_layer <- function(p, template_id, resolved) {
   point_width <- if (template_id %in% c("beeswarm_summary", "sina_density")) 0.22 else 0.12
+  if (isTRUE(resolved$fill_grouped)) {
+    return(p + ggplot2::geom_point(
+      position = ggplot2::position_jitterdodge(jitter.width = point_width, dodge.width = 0.78),
+      alpha = resolved$point_alpha,
+      size = resolved$point_size,
+      show.legend = FALSE
+    ))
+  }
   p + ggplot2::geom_jitter(width = point_width, alpha = resolved$point_alpha, size = resolved$point_size, show.legend = FALSE)
 }
 
-add_median_segments <- function(p, data, x, y, pal) {
+add_median_segments <- function(p, data, x, y, fill_col, resolved, pal) {
+  if (isTRUE(resolved$fill_grouped)) {
+    return(p + ggplot2::stat_summary(
+      fun = stats::median,
+      geom = "crossbar",
+      width = 0.18,
+      fatten = 0,
+      position = ggplot2::position_dodge(width = 0.78),
+      color = unname(pal[["line"]]),
+      linewidth = 0.55
+    ))
+  }
   med <- stats::aggregate(data[[y]], list(.x = data[[x]]), stats::median, na.rm = TRUE)
   names(med) <- c(x, ".median")
   med[[x]] <- factor(med[[x]], levels = levels(data[[x]]))

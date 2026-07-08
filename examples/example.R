@@ -13,6 +13,7 @@ for (idx in seq_len(nrow(example_map))) {
     template_data,
     x = example_map$x[[idx]],
     y = example_map$y[[idx]],
+    fill_col = if (nzchar(example_map$fill_col[[idx]])) example_map$fill_col[[idx]] else NULL,
     facet = if (nzchar(example_map$facet[[idx]])) example_map$facet[[idx]] else NULL,
     subject = if (nzchar(example_map$subject[[idx]])) example_map$subject[[idx]] else NULL,
     template = template_id,

@@ -52,6 +52,38 @@ test_that("violin_plot supports manual palette and comparison label controls", {
   expect_true(params$compare)
 })
 
+test_that("violin_plot can color by fill_col independently from x", {
+  data <- data.frame(
+    timepoint = rep(c("Baseline", "Week 8"), each = 18),
+    group = rep(rep(c("Control", "Low dose", "High dose"), each = 6), 2),
+    value = c(rnorm(18, 2), rnorm(18, 3))
+  )
+
+  p <- violin_plot(
+    data,
+    x = "timepoint",
+    y = "value",
+    fill_col = "group",
+    template = "violin_box",
+    print_params = FALSE
+  )
+  built <- ggplot2::ggplot_build(p)
+
+  expect_equal(attr(p, "violinplus_params")$fill_col, "group")
+  expect_equal(attr(p, "violinplus_params")$x, "timepoint")
+  expect_true(length(unique(built$data[[1]]$fill)) >= 3)
+  expect_equal(p$labels$fill, "group")
+})
+
+test_that("violin_plot validates fill_col", {
+  data <- data.frame(group = rep(c("A", "B"), each = 6), value = rnorm(12))
+
+  expect_error(
+    violin_plot(data, x = "group", y = "value", fill_col = "missing", print_params = FALSE),
+    "missing"
+  )
+})
+
 test_that("multi-group comparison automatically selects the strongest pair", {
   data <- data.frame(
     group = rep(c("A", "B", "C"), each = 12),

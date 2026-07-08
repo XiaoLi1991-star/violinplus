@@ -5,7 +5,7 @@
 violin_template_examples()
 }
 \value{
-A data frame with one example story and mapping per template.
+A data frame with one example story and mapping per template, including x, fill_col, y, facet, and subject columns.
 }
 \description{
 List example mappings for the single violinplus demo table.
