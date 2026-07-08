@@ -1,0 +1,577 @@
+"sample_id","subject","group","value","facet","pair","cohort","response","batch","timepoint","unit","feature_id","is_outlier"
+"S001_Baseline_IL6_Control","S001","Control",2.44477514221173,"IL6","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S001_Baseline_CRP_Control","S001","Control",3.9501803055882,"CRP","Baseline","Discovery","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S001_Baseline_TNFalpha_Control","S001","Control",3.3772603103716,"TNF-alpha","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S001_Baseline_Albumin_Control","S001","Control",4.69996765096588,"Albumin","Baseline","Discovery","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S001_Week8_IL6_Control","S001","Control",3.0506901850153,"IL6","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S001_Week8_CRP_Control","S001","Control",5.10695741933392,"CRP","Week 8","Discovery","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S001_Week8_TNFalpha_Control","S001","Control",3.56080208588942,"TNF-alpha","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S001_Week8_Albumin_Control","S001","Control",4.73193116037197,"Albumin","Week 8","Discovery","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S002_Baseline_IL6_Control","S002","Control",2.44236714460655,"IL6","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S002_Baseline_CRP_Control","S002","Control",4.21770188888606,"CRP","Baseline","Discovery","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S002_Baseline_TNFalpha_Control","S002","Control",1.89094439574788,"TNF-alpha","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S002_Baseline_Albumin_Control","S002","Control",3.8506506074617,"Albumin","Baseline","Discovery","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S002_Week8_IL6_Control","S002","Control",1.28338220779672,"IL6","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S002_Week8_CRP_Control","S002","Control",3.1948891413021,"CRP","Week 8","Discovery","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S002_Week8_TNFalpha_Control","S002","Control",2.01069535203246,"TNF-alpha","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S002_Week8_Albumin_Control","S002","Control",3.34490394431723,"Albumin","Week 8","Discovery","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S003_Baseline_IL6_Control","S003","Control",2.15955449040467,"IL6","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S003_Baseline_CRP_Control","S003","Control",2.72272858552109,"CRP","Baseline","Discovery","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S003_Baseline_TNFalpha_Control","S003","Control",1.53381874794401,"TNF-alpha","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S003_Baseline_Albumin_Control","S003","Control",3.61257909324371,"Albumin","Baseline","Discovery","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S003_Week8_IL6_Control","S003","Control",2.03370535057509,"IL6","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S003_Week8_CRP_Control","S003","Control",3.95355301042564,"CRP","Week 8","Discovery","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S003_Week8_TNFalpha_Control","S003","Control",2.16713768284605,"TNF-alpha","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S003_Week8_Albumin_Control","S003","Control",3.42868052568111,"Albumin","Week 8","Discovery","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S004_Baseline_IL6_Control","S004","Control",2.26906374530757,"IL6","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S004_Baseline_CRP_Control","S004","Control",3.01463295048289,"CRP","Baseline","Discovery","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S004_Baseline_TNFalpha_Control","S004","Control",2.7057016914966,"TNF-alpha","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S004_Baseline_Albumin_Control","S004","Control",4.23998509908901,"Albumin","Baseline","Discovery","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S004_Week8_IL6_Control","S004","Control",2.91456584213471,"IL6","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S004_Week8_CRP_Control","S004","Control",3.66861377573169,"CRP","Week 8","Discovery","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S004_Week8_TNFalpha_Control","S004","Control",3.18451359151817,"TNF-alpha","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S004_Week8_Albumin_Control","S004","Control",3.1418682145244,"Albumin","Week 8","Discovery","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S005_Baseline_IL6_Control","S005","Control",1.53948879647167,"IL6","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S005_Baseline_CRP_Control","S005","Control",1.89240393601571,"CRP","Baseline","Discovery","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S005_Baseline_TNFalpha_Control","S005","Control",2.34252396911075,"TNF-alpha","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S005_Baseline_Albumin_Control","S005","Control",3.83647698654776,"Albumin","Baseline","Discovery","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S005_Week8_IL6_Control","S005","Control",1.03603789698514,"IL6","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S005_Week8_CRP_Control","S005","Control",3.03997083455647,"CRP","Week 8","Discovery","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S005_Week8_TNFalpha_Control","S005","Control",1.75264954420259,"TNF-alpha","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S005_Week8_Albumin_Control","S005","Control",3.55567868605429,"Albumin","Week 8","Discovery","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S006_Baseline_IL6_Control","S006","Control",1.9920335647565,"IL6","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S006_Baseline_CRP_Control","S006","Control",4.10775281243453,"CRP","Baseline","Discovery","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S006_Baseline_TNFalpha_Control","S006","Control",2.5239576876669,"TNF-alpha","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S006_Baseline_Albumin_Control","S006","Control",4.38148865201259,"Albumin","Baseline","Discovery","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S006_Week8_IL6_Control","S006","Control",2.28736183482931,"IL6","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S006_Week8_CRP_Control","S006","Control",3.3451797212638,"CRP","Week 8","Discovery","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S006_Week8_TNFalpha_Control","S006","Control",3.40668370218092,"TNF-alpha","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S006_Week8_Albumin_Control","S006","Control",4.21791905026082,"Albumin","Week 8","Discovery","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S007_Baseline_IL6_Control","S007","Control",2.50018417046703,"IL6","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S007_Baseline_CRP_Control","S007","Control",3.8618368836128,"CRP","Baseline","Discovery","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S007_Baseline_TNFalpha_Control","S007","Control",2.94029341328798,"TNF-alpha","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S007_Baseline_Albumin_Control","S007","Control",3.51809169310511,"Albumin","Baseline","Discovery","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S007_Week8_IL6_Control","S007","Control",2.95301712058835,"IL6","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S007_Week8_CRP_Control","S007","Control",4.03090132715449,"CRP","Week 8","Discovery","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S007_Week8_TNFalpha_Control","S007","Control",3.43654453103686,"TNF-alpha","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S007_Week8_Albumin_Control","S007","Control",4.09906756005027,"Albumin","Week 8","Discovery","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S008_Baseline_IL6_Control","S008","Control",2.01467332869136,"IL6","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S008_Baseline_CRP_Control","S008","Control",4.03809681333255,"CRP","Baseline","Discovery","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S008_Baseline_TNFalpha_Control","S008","Control",2.80957491441847,"TNF-alpha","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S008_Baseline_Albumin_Control","S008","Control",4.48273433654802,"Albumin","Baseline","Discovery","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S008_Week8_IL6_Control","S008","Control",1.9050003421315,"IL6","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S008_Week8_CRP_Control","S008","Control",3.49634780220277,"CRP","Week 8","Discovery","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S008_Week8_TNFalpha_Control","S008","Control",1.9855674322569,"TNF-alpha","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S008_Week8_Albumin_Control","S008","Control",4.32670044066168,"Albumin","Week 8","Discovery","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S009_Baseline_IL6_Control","S009","Control",1.93803532751732,"IL6","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S009_Baseline_CRP_Control","S009","Control",3.16796030260168,"CRP","Baseline","Discovery","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S009_Baseline_TNFalpha_Control","S009","Control",2.98301193827896,"TNF-alpha","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S009_Baseline_Albumin_Control","S009","Control",4.4273233157536,"Albumin","Baseline","Discovery","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S009_Week8_IL6_Control","S009","Control",2.32991424926357,"IL6","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S009_Week8_CRP_Control","S009","Control",3.25363393532556,"CRP","Week 8","Discovery","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S009_Week8_TNFalpha_Control","S009","Control",2.46431652767373,"TNF-alpha","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S009_Week8_Albumin_Control","S009","Control",4.4757912319053,"Albumin","Week 8","Discovery","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S010_Baseline_IL6_Control","S010","Control",2.50649553667002,"IL6","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S010_Baseline_CRP_Control","S010","Control",3.61202241686318,"CRP","Baseline","Discovery","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S010_Baseline_TNFalpha_Control","S010","Control",2.44258087859476,"TNF-alpha","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S010_Baseline_Albumin_Control","S010","Control",4.57778499020707,"Albumin","Baseline","Discovery","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S010_Week8_IL6_Control","S010","Control",2.85259831120195,"IL6","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S010_Week8_CRP_Control","S010","Control",4.2241853409064,"CRP","Week 8","Discovery","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S010_Week8_TNFalpha_Control","S010","Control",3.71109746361281,"TNF-alpha","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S010_Week8_Albumin_Control","S010","Control",4.21652232969807,"Albumin","Week 8","Discovery","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S011_Baseline_IL6_Control","S011","Control",2.05868181382958,"IL6","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S011_Baseline_CRP_Control","S011","Control",3.66323779999501,"CRP","Baseline","Discovery","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S011_Baseline_TNFalpha_Control","S011","Control",3.24920292109637,"TNF-alpha","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S011_Baseline_Albumin_Control","S011","Control",3.85956006142276,"Albumin","Baseline","Discovery","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S011_Week8_IL6_Control","S011","Control",1.2579114681297,"IL6","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S011_Week8_CRP_Control","S011","Control",2.58129854128397,"CRP","Week 8","Discovery","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S011_Week8_TNFalpha_Control","S011","Control",1.86607962785726,"TNF-alpha","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S011_Week8_Albumin_Control","S011","Control",4.35297606257569,"Albumin","Week 8","Discovery","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S012_Baseline_IL6_Control","S012","Control",2.71590500884034,"IL6","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S012_Baseline_CRP_Control","S012","Control",3.96771477036233,"CRP","Baseline","Discovery","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S012_Baseline_TNFalpha_Control","S012","Control",2.34635749533771,"TNF-alpha","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S012_Baseline_Albumin_Control","S012","Control",4.75515171360522,"Albumin","Baseline","Discovery","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S012_Week8_IL6_Control","S012","Control",1.9908738221592,"IL6","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S012_Week8_CRP_Control","S012","Control",3.78505799674209,"CRP","Week 8","Discovery","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S012_Week8_TNFalpha_Control","S012","Control",2.68711954602669,"TNF-alpha","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S012_Week8_Albumin_Control","S012","Control",4.04331873298946,"Albumin","Week 8","Discovery","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S013_Baseline_IL6_Lowdose","S013","Low dose",2.42438947192925,"IL6","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S013_Baseline_CRP_Lowdose","S013","Low dose",3.56258309831994,"CRP","Baseline","Discovery","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S013_Baseline_TNFalpha_Lowdose","S013","Low dose",2.84494238282824,"TNF-alpha","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S013_Baseline_Albumin_Lowdose","S013","Low dose",4.1779528801732,"Albumin","Baseline","Discovery","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S013_Week8_IL6_Lowdose","S013","Low dose",1.54244092177638,"IL6","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S013_Week8_CRP_Lowdose","S013","Low dose",2.5463801602486,"CRP","Week 8","Discovery","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S013_Week8_TNFalpha_Lowdose","S013","Low dose",2.35858792999822,"TNF-alpha","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S013_Week8_Albumin_Lowdose","S013","Low dose",4.33033267400448,"Albumin","Week 8","Discovery","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S014_Baseline_IL6_Lowdose","S014","Low dose",2.51322086145756,"IL6","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S014_Baseline_CRP_Lowdose","S014","Low dose",4.18810567841344,"CRP","Baseline","Discovery","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S014_Baseline_TNFalpha_Lowdose","S014","Low dose",2.90876285448187,"TNF-alpha","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S014_Baseline_Albumin_Lowdose","S014","Low dose",4.51461837245976,"Albumin","Baseline","Discovery","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S014_Week8_IL6_Lowdose","S014","Low dose",2.92873919136905,"IL6","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S014_Week8_CRP_Lowdose","S014","Low dose",3.91785276936425,"CRP","Week 8","Discovery","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S014_Week8_TNFalpha_Lowdose","S014","Low dose",3.59564778662627,"TNF-alpha","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S014_Week8_Albumin_Lowdose","S014","Low dose",4.64642789326284,"Albumin","Week 8","Discovery","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S015_Baseline_IL6_Lowdose","S015","Low dose",1.97114864339659,"IL6","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S015_Baseline_CRP_Lowdose","S015","Low dose",3.2984025331771,"CRP","Baseline","Discovery","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S015_Baseline_TNFalpha_Lowdose","S015","Low dose",3.14775535846391,"TNF-alpha","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S015_Baseline_Albumin_Lowdose","S015","Low dose",4.74847287727768,"Albumin","Baseline","Discovery","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S015_Week8_IL6_Lowdose","S015","Low dose",2.94196081063091,"IL6","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S015_Week8_CRP_Lowdose","S015","Low dose",4.4895674086685,"CRP","Week 8","Discovery","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S015_Week8_TNFalpha_Lowdose","S015","Low dose",3.96623717532348,"TNF-alpha","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S015_Week8_Albumin_Lowdose","S015","Low dose",4.57269871887242,"Albumin","Week 8","Discovery","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S016_Baseline_IL6_Lowdose","S016","Low dose",2.07263087120189,"IL6","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S016_Baseline_CRP_Lowdose","S016","Low dose",3.80319380210082,"CRP","Baseline","Discovery","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S016_Baseline_TNFalpha_Lowdose","S016","Low dose",2.43402228107176,"TNF-alpha","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S016_Baseline_Albumin_Lowdose","S016","Low dose",4.04782806590403,"Albumin","Baseline","Discovery","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S016_Week8_IL6_Lowdose","S016","Low dose",1.41324304028634,"IL6","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S016_Week8_CRP_Lowdose","S016","Low dose",2.58306396362906,"CRP","Week 8","Discovery","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S016_Week8_TNFalpha_Lowdose","S016","Low dose",2.14353959983075,"TNF-alpha","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S016_Week8_Albumin_Lowdose","S016","Low dose",4.21427495554225,"Albumin","Week 8","Discovery","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S017_Baseline_IL6_Lowdose","S017","Low dose",2.83405485511476,"IL6","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S017_Baseline_CRP_Lowdose","S017","Low dose",3.42905682842528,"CRP","Baseline","Discovery","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S017_Baseline_TNFalpha_Lowdose","S017","Low dose",2.7108993747813,"TNF-alpha","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S017_Baseline_Albumin_Lowdose","S017","Low dose",4.58062512860416,"Albumin","Baseline","Discovery","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S017_Week8_IL6_Lowdose","S017","Low dose",2.00633834669146,"IL6","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S017_Week8_CRP_Lowdose","S017","Low dose",3.86718929335153,"CRP","Week 8","Discovery","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S017_Week8_TNFalpha_Lowdose","S017","Low dose",2.40591657467749,"TNF-alpha","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S017_Week8_Albumin_Lowdose","S017","Low dose",4.55231108095556,"Albumin","Week 8","Discovery","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S018_Baseline_IL6_Lowdose","S018","Low dose",2.5216763633641,"IL6","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S018_Baseline_CRP_Lowdose","S018","Low dose",3.27353022615887,"CRP","Baseline","Discovery","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S018_Baseline_TNFalpha_Lowdose","S018","Low dose",3.17779420091728,"TNF-alpha","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S018_Baseline_Albumin_Lowdose","S018","Low dose",4.4066647639262,"Albumin","Baseline","Discovery","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S018_Week8_IL6_Lowdose","S018","Low dose",2.94935638156952,"IL6","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S018_Week8_CRP_Lowdose","S018","Low dose",5.05019763426573,"CRP","Week 8","Discovery","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S018_Week8_TNFalpha_Lowdose","S018","Low dose",3.57404394306066,"TNF-alpha","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S018_Week8_Albumin_Lowdose","S018","Low dose",3.91064470619048,"Albumin","Week 8","Discovery","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S019_Baseline_IL6_Lowdose","S019","Low dose",2.25604617753063,"IL6","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S019_Baseline_CRP_Lowdose","S019","Low dose",3.83488333543843,"CRP","Baseline","Discovery","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S019_Baseline_TNFalpha_Lowdose","S019","Low dose",3.3436975713819,"TNF-alpha","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S019_Baseline_Albumin_Lowdose","S019","Low dose",4.03142333573347,"Albumin","Baseline","Discovery","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S019_Week8_IL6_Lowdose","S019","Low dose",1.86395834002142,"IL6","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S019_Week8_CRP_Lowdose","S019","Low dose",3.32758136524945,"CRP","Week 8","Discovery","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S019_Week8_TNFalpha_Lowdose","S019","Low dose",2.83969216010466,"TNF-alpha","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S019_Week8_Albumin_Lowdose","S019","Low dose",4.40503935993917,"Albumin","Week 8","Discovery","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S020_Baseline_IL6_Lowdose","S020","Low dose",2.04727243946843,"IL6","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S020_Baseline_CRP_Lowdose","S020","Low dose",4.55084794691393,"CRP","Baseline","Discovery","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S020_Baseline_TNFalpha_Lowdose","S020","Low dose",3.46920706415997,"TNF-alpha","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S020_Baseline_Albumin_Lowdose","S020","Low dose",4.5483741554349,"Albumin","Baseline","Discovery","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S020_Week8_IL6_Lowdose","S020","Low dose",2.05792900807559,"IL6","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S020_Week8_CRP_Lowdose","S020","Low dose",4.3199453473418,"CRP","Week 8","Discovery","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S020_Week8_TNFalpha_Lowdose","S020","Low dose",3.44420510057252,"TNF-alpha","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S020_Week8_Albumin_Lowdose","S020","Low dose",4.42881185692492,"Albumin","Week 8","Discovery","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S021_Baseline_IL6_Lowdose","S021","Low dose",2.5986650107963,"IL6","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S021_Baseline_CRP_Lowdose","S021","Low dose",4.15322509039884,"CRP","Baseline","Discovery","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S021_Baseline_TNFalpha_Lowdose","S021","Low dose",3.32923070980865,"TNF-alpha","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S021_Baseline_Albumin_Lowdose","S021","Low dose",4.64906943617931,"Albumin","Baseline","Discovery","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S021_Week8_IL6_Lowdose","S021","Low dose",2.79294159805156,"IL6","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S021_Week8_CRP_Lowdose","S021","Low dose",4.94259902901325,"CRP","Week 8","Discovery","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S021_Week8_TNFalpha_Lowdose","S021","Low dose",3.88785677717937,"TNF-alpha","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S021_Week8_Albumin_Lowdose","S021","Low dose",4.07309621473084,"Albumin","Week 8","Discovery","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S022_Baseline_IL6_Lowdose","S022","Low dose",2.09266004823867,"IL6","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S022_Baseline_CRP_Lowdose","S022","Low dose",3.01768454075108,"CRP","Baseline","Discovery","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S022_Baseline_TNFalpha_Lowdose","S022","Low dose",2.61896657811737,"TNF-alpha","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S022_Baseline_Albumin_Lowdose","S022","Low dose",3.6106534405032,"Albumin","Baseline","Discovery","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S022_Week8_IL6_Lowdose","S022","Low dose",1.02685617974955,"IL6","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S022_Week8_CRP_Lowdose","S022","Low dose",3.38157281499483,"CRP","Week 8","Discovery","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S022_Week8_TNFalpha_Lowdose","S022","Low dose",2.37640859463085,"TNF-alpha","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S022_Week8_Albumin_Lowdose","S022","Low dose",4.29719064112028,"Albumin","Week 8","Discovery","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S023_Baseline_IL6_Lowdose","S023","Low dose",2.90054040603252,"IL6","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S023_Baseline_CRP_Lowdose","S023","Low dose",3.14632296332853,"CRP","Baseline","Discovery","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S023_Baseline_TNFalpha_Lowdose","S023","Low dose",3.40357645533247,"TNF-alpha","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S023_Baseline_Albumin_Lowdose","S023","Low dose",5.11471215596817,"Albumin","Baseline","Discovery","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S023_Week8_IL6_Lowdose","S023","Low dose",3.46698446268948,"IL6","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S023_Week8_CRP_Lowdose","S023","Low dose",3.66715340109948,"CRP","Week 8","Discovery","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S023_Week8_TNFalpha_Lowdose","S023","Low dose",2.95941600536941,"TNF-alpha","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S023_Week8_Albumin_Lowdose","S023","Low dose",4.42911112977488,"Albumin","Week 8","Discovery","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S024_Baseline_IL6_Lowdose","S024","Low dose",2.32071709335766,"IL6","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S024_Baseline_CRP_Lowdose","S024","Low dose",3.60684987377168,"CRP","Baseline","Discovery","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S024_Baseline_TNFalpha_Lowdose","S024","Low dose",2.58380557994491,"TNF-alpha","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S024_Baseline_Albumin_Lowdose","S024","Low dose",5.06062216598139,"Albumin","Baseline","Discovery","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S024_Week8_IL6_Lowdose","S024","Low dose",3.02691337248719,"IL6","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S024_Week8_CRP_Lowdose","S024","Low dose",4.29242131399859,"CRP","Week 8","Discovery","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S024_Week8_TNFalpha_Lowdose","S024","Low dose",3.68860542303585,"TNF-alpha","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S024_Week8_Albumin_Lowdose","S024","Low dose",4.08074621133914,"Albumin","Week 8","Discovery","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S025_Baseline_IL6_Highdose","S025","High dose",3.34833187735565,"IL6","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S025_Baseline_CRP_Highdose","S025","High dose",3.89856055880649,"CRP","Baseline","Discovery","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S025_Baseline_TNFalpha_Highdose","S025","High dose",2.85845531579289,"TNF-alpha","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S025_Baseline_Albumin_Highdose","S025","High dose",4.90421116267209,"Albumin","Baseline","Discovery","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S025_Week8_IL6_Highdose","S025","High dose",2.63670977634805,"IL6","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S025_Week8_CRP_Highdose","S025","High dose",4.00141591133761,"CRP","Week 8","Discovery","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S025_Week8_TNFalpha_Highdose","S025","High dose",3.06033429708681,"TNF-alpha","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S025_Week8_Albumin_Highdose","S025","High dose",4.75616660626261,"Albumin","Week 8","Discovery","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S026_Baseline_IL6_Highdose","S026","High dose",3.29400374554347,"IL6","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S026_Baseline_CRP_Highdose","S026","High dose",4.20321234301548,"CRP","Baseline","Discovery","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S026_Baseline_TNFalpha_Highdose","S026","High dose",3.28844541599087,"TNF-alpha","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S026_Baseline_Albumin_Highdose","S026","High dose",5.39874296694518,"Albumin","Baseline","Discovery","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S026_Week8_IL6_Highdose","S026","High dose",3.47627705466527,"IL6","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S026_Week8_CRP_Highdose","S026","High dose",5.37525511594698,"CRP","Week 8","Discovery","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S026_Week8_TNFalpha_Highdose","S026","High dose",3.54207539436174,"TNF-alpha","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S026_Week8_Albumin_Highdose","S026","High dose",4.498164210818,"Albumin","Week 8","Discovery","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S027_Baseline_IL6_Highdose","S027","High dose",2.50858851010793,"IL6","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S027_Baseline_CRP_Highdose","S027","High dose",4.3984349042687,"CRP","Baseline","Discovery","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S027_Baseline_TNFalpha_Highdose","S027","High dose",3.13286616237903,"TNF-alpha","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S027_Baseline_Albumin_Highdose","S027","High dose",4.65989998718139,"Albumin","Baseline","Discovery","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S027_Week8_IL6_Highdose","S027","High dose",3.00111036819869,"IL6","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",TRUE
+"S027_Week8_CRP_Highdose","S027","High dose",4.28336897444312,"CRP","Week 8","Discovery","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",TRUE
+"S027_Week8_TNFalpha_Highdose","S027","High dose",3.22078293412327,"TNF-alpha","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S027_Week8_Albumin_Highdose","S027","High dose",5.10389161495918,"Albumin","Week 8","Discovery","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S028_Baseline_IL6_Highdose","S028","High dose",2.66537886714721,"IL6","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S028_Baseline_CRP_Highdose","S028","High dose",5.24727777612219,"CRP","Baseline","Discovery","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S028_Baseline_TNFalpha_Highdose","S028","High dose",3.94120713930964,"TNF-alpha","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S028_Baseline_Albumin_Highdose","S028","High dose",5.0573145740271,"Albumin","Baseline","Discovery","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S028_Week8_IL6_Highdose","S028","High dose",3.28402210877723,"IL6","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S028_Week8_CRP_Highdose","S028","High dose",4.12767211086748,"CRP","Week 8","Discovery","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S028_Week8_TNFalpha_Highdose","S028","High dose",3.25825609219345,"TNF-alpha","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S028_Week8_Albumin_Highdose","S028","High dose",4.91852959024834,"Albumin","Week 8","Discovery","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S029_Baseline_IL6_Highdose","S029","High dose",2.95887720532991,"IL6","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S029_Baseline_CRP_Highdose","S029","High dose",4.6282384006417,"CRP","Baseline","Discovery","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S029_Baseline_TNFalpha_Highdose","S029","High dose",3.00139873109299,"TNF-alpha","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S029_Baseline_Albumin_Highdose","S029","High dose",4.63750733463994,"Albumin","Baseline","Discovery","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S029_Week8_IL6_Highdose","S029","High dose",3.36010248523289,"IL6","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S029_Week8_CRP_Highdose","S029","High dose",4.22635249189785,"CRP","Week 8","Discovery","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S029_Week8_TNFalpha_Highdose","S029","High dose",3.70862284106281,"TNF-alpha","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S029_Week8_Albumin_Highdose","S029","High dose",4.66864226108759,"Albumin","Week 8","Discovery","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S030_Baseline_IL6_Highdose","S030","High dose",3.03502596862383,"IL6","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S030_Baseline_CRP_Highdose","S030","High dose",3.26131805413426,"CRP","Baseline","Discovery","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S030_Baseline_TNFalpha_Highdose","S030","High dose",3.30399934252068,"TNF-alpha","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S030_Baseline_Albumin_Highdose","S030","High dose",5.13265460252934,"Albumin","Baseline","Discovery","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S030_Week8_IL6_Highdose","S030","High dose",2.51100441523457,"IL6","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S030_Week8_CRP_Highdose","S030","High dose",3.72865068916769,"CRP","Week 8","Discovery","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S030_Week8_TNFalpha_Highdose","S030","High dose",1.99854477526041,"TNF-alpha","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S030_Week8_Albumin_Highdose","S030","High dose",5.01158876137893,"Albumin","Week 8","Discovery","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S031_Baseline_IL6_Highdose","S031","High dose",2.98884852265358,"IL6","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S031_Baseline_CRP_Highdose","S031","High dose",4.19411094862619,"CRP","Baseline","Discovery","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S031_Baseline_TNFalpha_Highdose","S031","High dose",3.63727014723718,"TNF-alpha","Baseline","Discovery","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S031_Baseline_Albumin_Highdose","S031","High dose",4.81224137945298,"Albumin","Baseline","Discovery","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S031_Week8_IL6_Highdose","S031","High dose",3.32866790230257,"IL6","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S031_Week8_CRP_Highdose","S031","High dose",4.57495233549032,"CRP","Week 8","Discovery","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S031_Week8_TNFalpha_Highdose","S031","High dose",3.1210606027287,"TNF-alpha","Week 8","Discovery","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S031_Week8_Albumin_Highdose","S031","High dose",5.15011643333499,"Albumin","Week 8","Discovery","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S032_Baseline_IL6_Highdose","S032","High dose",3.64698775631361,"IL6","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S032_Baseline_CRP_Highdose","S032","High dose",3.80861937767825,"CRP","Baseline","Discovery","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S032_Baseline_TNFalpha_Highdose","S032","High dose",3.57046619809169,"TNF-alpha","Baseline","Discovery","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S032_Baseline_Albumin_Highdose","S032","High dose",5.47474647750284,"Albumin","Baseline","Discovery","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S032_Week8_IL6_Highdose","S032","High dose",3.83166809123824,"IL6","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S032_Week8_CRP_Highdose","S032","High dose",5.35340814530936,"CRP","Week 8","Discovery","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S032_Week8_TNFalpha_Highdose","S032","High dose",5.18144815723253,"TNF-alpha","Week 8","Discovery","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S032_Week8_Albumin_Highdose","S032","High dose",4.64765611782986,"Albumin","Week 8","Discovery","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S033_Baseline_IL6_Highdose","S033","High dose",2.4026803719391,"IL6","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S033_Baseline_CRP_Highdose","S033","High dose",3.15020540075322,"CRP","Baseline","Discovery","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S033_Baseline_TNFalpha_Highdose","S033","High dose",2.97911957943826,"TNF-alpha","Baseline","Discovery","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S033_Baseline_Albumin_Highdose","S033","High dose",4.03215625665139,"Albumin","Baseline","Discovery","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S033_Week8_IL6_Highdose","S033","High dose",2.3917228426267,"IL6","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S033_Week8_CRP_Highdose","S033","High dose",3.12395629210291,"CRP","Week 8","Discovery","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S033_Week8_TNFalpha_Highdose","S033","High dose",2.32823648702134,"TNF-alpha","Week 8","Discovery","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S033_Week8_Albumin_Highdose","S033","High dose",4.3730707616965,"Albumin","Week 8","Discovery","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S034_Baseline_IL6_Highdose","S034","High dose",3.09835717402172,"IL6","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S034_Baseline_CRP_Highdose","S034","High dose",3.52373387640768,"CRP","Baseline","Discovery","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S034_Baseline_TNFalpha_Highdose","S034","High dose",3.4835055172787,"TNF-alpha","Baseline","Discovery","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S034_Baseline_Albumin_Highdose","S034","High dose",5.20812921599813,"Albumin","Baseline","Discovery","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S034_Week8_IL6_Highdose","S034","High dose",4.33851831942943,"IL6","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",TRUE
+"S034_Week8_CRP_Highdose","S034","High dose",5.92604387277926,"CRP","Week 8","Discovery","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",TRUE
+"S034_Week8_TNFalpha_Highdose","S034","High dose",3.54960181079319,"TNF-alpha","Week 8","Discovery","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S034_Week8_Albumin_Highdose","S034","High dose",4.819052955146,"Albumin","Week 8","Discovery","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S035_Baseline_IL6_Highdose","S035","High dose",3.53442734040257,"IL6","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S035_Baseline_CRP_Highdose","S035","High dose",3.7859485297844,"CRP","Baseline","Discovery","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S035_Baseline_TNFalpha_Highdose","S035","High dose",3.68410124445748,"TNF-alpha","Baseline","Discovery","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S035_Baseline_Albumin_Highdose","S035","High dose",5.12695709314882,"Albumin","Baseline","Discovery","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S035_Week8_IL6_Highdose","S035","High dose",3.38879348163029,"IL6","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S035_Week8_CRP_Highdose","S035","High dose",4.5213647914762,"CRP","Week 8","Discovery","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S035_Week8_TNFalpha_Highdose","S035","High dose",3.91714836138991,"TNF-alpha","Week 8","Discovery","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S035_Week8_Albumin_Highdose","S035","High dose",4.89113266550245,"Albumin","Week 8","Discovery","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S036_Baseline_IL6_Highdose","S036","High dose",2.38820006665513,"IL6","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S036_Baseline_CRP_Highdose","S036","High dose",3.91859926565569,"CRP","Baseline","Discovery","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S036_Baseline_TNFalpha_Highdose","S036","High dose",2.60511051254539,"TNF-alpha","Baseline","Discovery","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S036_Baseline_Albumin_Highdose","S036","High dose",4.87790657923321,"Albumin","Baseline","Discovery","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S036_Week8_IL6_Highdose","S036","High dose",1.82029948037258,"IL6","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S036_Week8_CRP_Highdose","S036","High dose",3.65016988714324,"CRP","Week 8","Discovery","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S036_Week8_TNFalpha_Highdose","S036","High dose",2.79444432788543,"TNF-alpha","Week 8","Discovery","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S036_Week8_Albumin_Highdose","S036","High dose",4.74499453459874,"Albumin","Week 8","Discovery","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S037_Baseline_IL6_Control","S037","Control",2.09507726222233,"IL6","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S037_Baseline_CRP_Control","S037","Control",3.91115047114231,"CRP","Baseline","Validation","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S037_Baseline_TNFalpha_Control","S037","Control",2.84768657890995,"TNF-alpha","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S037_Baseline_Albumin_Control","S037","Control",4.04183114215383,"Albumin","Baseline","Validation","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S037_Week8_IL6_Control","S037","Control",1.6823091269741,"IL6","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S037_Week8_CRP_Control","S037","Control",3.45173602679533,"CRP","Week 8","Validation","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S037_Week8_TNFalpha_Control","S037","Control",2.37399164856977,"TNF-alpha","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S037_Week8_Albumin_Control","S037","Control",4.21950574178555,"Albumin","Week 8","Validation","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S038_Baseline_IL6_Control","S038","Control",2.63362046657541,"IL6","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S038_Baseline_CRP_Control","S038","Control",3.32444128861214,"CRP","Baseline","Validation","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S038_Baseline_TNFalpha_Control","S038","Control",2.15042744886192,"TNF-alpha","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S038_Baseline_Albumin_Control","S038","Control",3.81162828598952,"Albumin","Baseline","Validation","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S038_Week8_IL6_Control","S038","Control",1.94624312868812,"IL6","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S038_Week8_CRP_Control","S038","Control",3.36029888279612,"CRP","Week 8","Validation","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S038_Week8_TNFalpha_Control","S038","Control",2.7893552544988,"TNF-alpha","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S038_Week8_Albumin_Control","S038","Control",4.20523699909358,"Albumin","Week 8","Validation","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S039_Baseline_IL6_Control","S039","Control",2.0130498067306,"IL6","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S039_Baseline_CRP_Control","S039","Control",3.68496663075229,"CRP","Baseline","Validation","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S039_Baseline_TNFalpha_Control","S039","Control",2.95644258117801,"TNF-alpha","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S039_Baseline_Albumin_Control","S039","Control",4.61582611249309,"Albumin","Baseline","Validation","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S039_Week8_IL6_Control","S039","Control",2.26972544083436,"IL6","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S039_Week8_CRP_Control","S039","Control",4.09106252305966,"CRP","Week 8","Validation","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S039_Week8_TNFalpha_Control","S039","Control",3.82604645275518,"TNF-alpha","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S039_Week8_Albumin_Control","S039","Control",4.07453759724831,"Albumin","Week 8","Validation","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S040_Baseline_IL6_Control","S040","Control",2.1892001768637,"IL6","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S040_Baseline_CRP_Control","S040","Control",2.6077733998637,"CRP","Baseline","Validation","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S040_Baseline_TNFalpha_Control","S040","Control",2.14784943709512,"TNF-alpha","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S040_Baseline_Albumin_Control","S040","Control",4.15265008937858,"Albumin","Baseline","Validation","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S040_Week8_IL6_Control","S040","Control",1.17149108535382,"IL6","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S040_Week8_CRP_Control","S040","Control",3.09298625659689,"CRP","Week 8","Validation","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S040_Week8_TNFalpha_Control","S040","Control",1.90947396202636,"TNF-alpha","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S040_Week8_Albumin_Control","S040","Control",3.53875901803303,"Albumin","Week 8","Validation","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S041_Baseline_IL6_Control","S041","Control",1.70711642148375,"IL6","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S041_Baseline_CRP_Control","S041","Control",2.87928241754647,"CRP","Baseline","Validation","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S041_Baseline_TNFalpha_Control","S041","Control",2.40941491512556,"TNF-alpha","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S041_Baseline_Albumin_Control","S041","Control",3.93427296516393,"Albumin","Baseline","Validation","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S041_Week8_IL6_Control","S041","Control",1.90450911683375,"IL6","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S041_Week8_CRP_Control","S041","Control",4.18870409326924,"CRP","Week 8","Validation","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S041_Week8_TNFalpha_Control","S041","Control",NA,"TNF-alpha","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S041_Week8_Albumin_Control","S041","Control",NA,"Albumin","Week 8","Validation","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S042_Baseline_IL6_Control","S042","Control",3.12650504543647,"IL6","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S042_Baseline_CRP_Control","S042","Control",3.67266952813036,"CRP","Baseline","Validation","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S042_Baseline_TNFalpha_Control","S042","Control",3.42371194425144,"TNF-alpha","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S042_Baseline_Albumin_Control","S042","Control",3.99235912504819,"Albumin","Baseline","Validation","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S042_Week8_IL6_Control","S042","Control",3.51459589368791,"IL6","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S042_Week8_CRP_Control","S042","Control",3.9620825978099,"CRP","Week 8","Validation","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S042_Week8_TNFalpha_Control","S042","Control",3.30779086258677,"TNF-alpha","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S042_Week8_Albumin_Control","S042","Control",3.72219742228739,"Albumin","Week 8","Validation","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S043_Baseline_IL6_Control","S043","Control",2.68111175454603,"IL6","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S043_Baseline_CRP_Control","S043","Control",4.18406998682052,"CRP","Baseline","Validation","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S043_Baseline_TNFalpha_Control","S043","Control",2.1249014941523,"TNF-alpha","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S043_Baseline_Albumin_Control","S043","Control",4.11015998787017,"Albumin","Baseline","Validation","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S043_Week8_IL6_Control","S043","Control",1.87619386813036,"IL6","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S043_Week8_CRP_Control","S043","Control",2.72605090917926,"CRP","Week 8","Validation","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S043_Week8_TNFalpha_Control","S043","Control",2.15119005382894,"TNF-alpha","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S043_Week8_Albumin_Control","S043","Control",4.0487586496843,"Albumin","Week 8","Validation","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S044_Baseline_IL6_Control","S044","Control",2.85273589001742,"IL6","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S044_Baseline_CRP_Control","S044","Control",3.74703878289804,"CRP","Baseline","Validation","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S044_Baseline_TNFalpha_Control","S044","Control",2.87928133577291,"TNF-alpha","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S044_Baseline_Albumin_Control","S044","Control",4.17308631112243,"Albumin","Baseline","Validation","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S044_Week8_IL6_Control","S044","Control",2.45704844342976,"IL6","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S044_Week8_CRP_Control","S044","Control",3.43031827727752,"CRP","Week 8","Validation","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S044_Week8_TNFalpha_Control","S044","Control",2.77149241895791,"TNF-alpha","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S044_Week8_Albumin_Control","S044","Control",4.40463365441134,"Albumin","Week 8","Validation","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S045_Baseline_IL6_Control","S045","Control",2.63150789584106,"IL6","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S045_Baseline_CRP_Control","S045","Control",3.4545389109622,"CRP","Baseline","Validation","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S045_Baseline_TNFalpha_Control","S045","Control",3.36335485843644,"TNF-alpha","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S045_Baseline_Albumin_Control","S045","Control",4.82333787977732,"Albumin","Baseline","Validation","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S045_Week8_IL6_Control","S045","Control",2.70400995615454,"IL6","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S045_Week8_CRP_Control","S045","Control",4.23453148547148,"CRP","Week 8","Validation","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S045_Week8_TNFalpha_Control","S045","Control",3.48820778288512,"TNF-alpha","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S045_Week8_Albumin_Control","S045","Control",3.86762275193113,"Albumin","Week 8","Validation","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S046_Baseline_IL6_Control","S046","Control",1.90939989671847,"IL6","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S046_Baseline_CRP_Control","S046","Control",3.26520738918656,"CRP","Baseline","Validation","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S046_Baseline_TNFalpha_Control","S046","Control",2.85142710793181,"TNF-alpha","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S046_Baseline_Albumin_Control","S046","Control",3.25566426120254,"Albumin","Baseline","Validation","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S046_Week8_IL6_Control","S046","Control",1.0013976209945,"IL6","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S046_Week8_CRP_Control","S046","Control",2.55008344381536,"CRP","Week 8","Validation","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S046_Week8_TNFalpha_Control","S046","Control",1.35822737026712,"TNF-alpha","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S046_Week8_Albumin_Control","S046","Control",3.74007767821888,"Albumin","Week 8","Validation","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S047_Baseline_IL6_Control","S047","Control",1.84440298539506,"IL6","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S047_Baseline_CRP_Control","S047","Control",2.12510111373115,"CRP","Baseline","Validation","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S047_Baseline_TNFalpha_Control","S047","Control",2.63117573245622,"TNF-alpha","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S047_Baseline_Albumin_Control","S047","Control",3.81313826119598,"Albumin","Baseline","Validation","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S047_Week8_IL6_Control","S047","Control",2.51704368925026,"IL6","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S047_Week8_CRP_Control","S047","Control",3.70825686058412,"CRP","Week 8","Validation","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S047_Week8_TNFalpha_Control","S047","Control",2.11773544859686,"TNF-alpha","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S047_Week8_Albumin_Control","S047","Control",3.85762740122896,"Albumin","Week 8","Validation","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S048_Baseline_IL6_Control","S048","Control",2.70513682017377,"IL6","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S048_Baseline_CRP_Control","S048","Control",3.48700290981243,"CRP","Baseline","Validation","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S048_Baseline_TNFalpha_Control","S048","Control",2.57145224501706,"TNF-alpha","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S048_Baseline_Albumin_Control","S048","Control",4.40587239296639,"Albumin","Baseline","Validation","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S048_Week8_IL6_Control","S048","Control",2.90500799677645,"IL6","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S048_Week8_CRP_Control","S048","Control",4.02904331105073,"CRP","Week 8","Validation","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S048_Week8_TNFalpha_Control","S048","Control",4.0106796589989,"TNF-alpha","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S048_Week8_Albumin_Control","S048","Control",3.7148931746692,"Albumin","Week 8","Validation","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S049_Baseline_IL6_Lowdose","S049","Low dose",1.99963979069691,"IL6","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S049_Baseline_CRP_Lowdose","S049","Low dose",3.56702131938004,"CRP","Baseline","Validation","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S049_Baseline_TNFalpha_Lowdose","S049","Low dose",3.24359374094173,"TNF-alpha","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S049_Baseline_Albumin_Lowdose","S049","Low dose",3.82526974660269,"Albumin","Baseline","Validation","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S049_Week8_IL6_Lowdose","S049","Low dose",2.35023620403805,"IL6","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S049_Week8_CRP_Lowdose","S049","Low dose",3.29351565286888,"CRP","Week 8","Validation","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S049_Week8_TNFalpha_Lowdose","S049","Low dose",3.5731945055693,"TNF-alpha","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S049_Week8_Albumin_Lowdose","S049","Low dose",4.62546909574895,"Albumin","Week 8","Validation","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S050_Baseline_IL6_Lowdose","S050","Low dose",3.35618545985739,"IL6","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S050_Baseline_CRP_Lowdose","S050","Low dose",3.49991747962591,"CRP","Baseline","Validation","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S050_Baseline_TNFalpha_Lowdose","S050","Low dose",3.69145816801063,"TNF-alpha","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S050_Baseline_Albumin_Lowdose","S050","Low dose",4.60640729010401,"Albumin","Baseline","Validation","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S050_Week8_IL6_Lowdose","S050","Low dose",3.42933607018003,"IL6","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S050_Week8_CRP_Lowdose","S050","Low dose",4.39548230502211,"CRP","Week 8","Validation","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S050_Week8_TNFalpha_Lowdose","S050","Low dose",3.68436414086995,"TNF-alpha","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S050_Week8_Albumin_Lowdose","S050","Low dose",4.50312275685359,"Albumin","Week 8","Validation","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S051_Baseline_IL6_Lowdose","S051","Low dose",2.11000127422949,"IL6","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S051_Baseline_CRP_Lowdose","S051","Low dose",3.33226551051698,"CRP","Baseline","Validation","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S051_Baseline_TNFalpha_Lowdose","S051","Low dose",2.42199455041987,"TNF-alpha","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S051_Baseline_Albumin_Lowdose","S051","Low dose",4.10461683577793,"Albumin","Baseline","Validation","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S051_Week8_IL6_Lowdose","S051","Low dose",1.41689272485436,"IL6","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S051_Week8_CRP_Lowdose","S051","Low dose",3.70356696349147,"CRP","Week 8","Validation","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S051_Week8_TNFalpha_Lowdose","S051","Low dose",2.5467038609096,"TNF-alpha","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S051_Week8_Albumin_Lowdose","S051","Low dose",5.06575449589723,"Albumin","Week 8","Validation","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S052_Baseline_IL6_Lowdose","S052","Low dose",2.70377044217051,"IL6","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S052_Baseline_CRP_Lowdose","S052","Low dose",4.39099989573801,"CRP","Baseline","Validation","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S052_Baseline_TNFalpha_Lowdose","S052","Low dose",3.00125845213732,"TNF-alpha","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S052_Baseline_Albumin_Lowdose","S052","Low dose",4.02362499146436,"Albumin","Baseline","Validation","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S052_Week8_IL6_Lowdose","S052","Low dose",1.99473638056623,"IL6","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S052_Week8_CRP_Lowdose","S052","Low dose",3.67094947696642,"CRP","Week 8","Validation","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S052_Week8_TNFalpha_Lowdose","S052","Low dose",3.50435328830364,"TNF-alpha","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S052_Week8_Albumin_Lowdose","S052","Low dose",4.37699816744042,"Albumin","Week 8","Validation","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S053_Baseline_IL6_Lowdose","S053","Low dose",2.22697330401511,"IL6","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S053_Baseline_CRP_Lowdose","S053","Low dose",3.52101828714792,"CRP","Baseline","Validation","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S053_Baseline_TNFalpha_Lowdose","S053","Low dose",2.29100297587675,"TNF-alpha","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S053_Baseline_Albumin_Lowdose","S053","Low dose",4.53956200204833,"Albumin","Baseline","Validation","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S053_Week8_IL6_Lowdose","S053","Low dose",2.07823963946636,"IL6","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S053_Week8_CRP_Lowdose","S053","Low dose",4.22957409484797,"CRP","Week 8","Validation","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S053_Week8_TNFalpha_Lowdose","S053","Low dose",NA,"TNF-alpha","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S053_Week8_Albumin_Lowdose","S053","Low dose",NA,"Albumin","Week 8","Validation","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S054_Baseline_IL6_Lowdose","S054","Low dose",2.4459736921593,"IL6","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S054_Baseline_CRP_Lowdose","S054","Low dose",3.53729041863118,"CRP","Baseline","Validation","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S054_Baseline_TNFalpha_Lowdose","S054","Low dose",2.71321404836497,"TNF-alpha","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S054_Baseline_Albumin_Lowdose","S054","Low dose",3.69995733806327,"Albumin","Baseline","Validation","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S054_Week8_IL6_Lowdose","S054","Low dose",1.17960549712916,"IL6","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S054_Week8_CRP_Lowdose","S054","Low dose",2.41759746027105,"CRP","Week 8","Validation","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S054_Week8_TNFalpha_Lowdose","S054","Low dose",2.78845156837756,"TNF-alpha","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S054_Week8_Albumin_Lowdose","S054","Low dose",4.33073126363467,"Albumin","Week 8","Validation","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S055_Baseline_IL6_Lowdose","S055","Low dose",2.12850643221026,"IL6","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S055_Baseline_CRP_Lowdose","S055","Low dose",3.4775271863219,"CRP","Baseline","Validation","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S055_Baseline_TNFalpha_Lowdose","S055","Low dose",3.25227353914117,"TNF-alpha","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S055_Baseline_Albumin_Lowdose","S055","Low dose",4.48861047477766,"Albumin","Baseline","Validation","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S055_Week8_IL6_Lowdose","S055","Low dose",2.52939555402634,"IL6","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S055_Week8_CRP_Lowdose","S055","Low dose",3.92611412688738,"CRP","Week 8","Validation","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S055_Week8_TNFalpha_Lowdose","S055","Low dose",3.61868751596724,"TNF-alpha","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S055_Week8_Albumin_Lowdose","S055","Low dose",4.20637065711132,"Albumin","Week 8","Validation","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S056_Baseline_IL6_Lowdose","S056","Low dose",3.23722662837941,"IL6","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S056_Baseline_CRP_Lowdose","S056","Low dose",3.41650970591219,"CRP","Baseline","Validation","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S056_Baseline_TNFalpha_Lowdose","S056","Low dose",3.43778112542787,"TNF-alpha","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S056_Baseline_Albumin_Lowdose","S056","Low dose",4.82856069038013,"Albumin","Baseline","Validation","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S056_Week8_IL6_Lowdose","S056","Low dose",3.73161060706332,"IL6","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S056_Week8_CRP_Lowdose","S056","Low dose",5.00335145297047,"CRP","Week 8","Validation","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S056_Week8_TNFalpha_Lowdose","S056","Low dose",3.85076938115841,"TNF-alpha","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S056_Week8_Albumin_Lowdose","S056","Low dose",4.44978543717249,"Albumin","Week 8","Validation","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S057_Baseline_IL6_Lowdose","S057","Low dose",2.23301008969282,"IL6","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S057_Baseline_CRP_Lowdose","S057","Low dose",2.89722839918851,"CRP","Baseline","Validation","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S057_Baseline_TNFalpha_Lowdose","S057","Low dose",2.31292912148624,"TNF-alpha","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S057_Baseline_Albumin_Lowdose","S057","Low dose",3.83854469701289,"Albumin","Baseline","Validation","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S057_Week8_IL6_Lowdose","S057","Low dose",1.91468298125148,"IL6","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S057_Week8_CRP_Lowdose","S057","Low dose",3.58210967123317,"CRP","Week 8","Validation","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S057_Week8_TNFalpha_Lowdose","S057","Low dose",2.22345331779794,"TNF-alpha","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S057_Week8_Albumin_Lowdose","S057","Low dose",4.02425869046832,"Albumin","Week 8","Validation","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S058_Baseline_IL6_Lowdose","S058","Low dose",3.31641961600642,"IL6","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S058_Baseline_CRP_Lowdose","S058","Low dose",4.49276328711785,"CRP","Baseline","Validation","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S058_Baseline_TNFalpha_Lowdose","S058","Low dose",2.36064823232598,"TNF-alpha","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S058_Baseline_Albumin_Lowdose","S058","Low dose",4.35423849656586,"Albumin","Baseline","Validation","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S058_Week8_IL6_Lowdose","S058","Low dose",2.98548772761531,"IL6","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S058_Week8_CRP_Lowdose","S058","Low dose",3.79696251680552,"CRP","Week 8","Validation","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S058_Week8_TNFalpha_Lowdose","S058","Low dose",3.74118939236417,"TNF-alpha","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S058_Week8_Albumin_Lowdose","S058","Low dose",4.20076845015336,"Albumin","Week 8","Validation","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S059_Baseline_IL6_Lowdose","S059","Low dose",3.03513948764985,"IL6","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S059_Baseline_CRP_Lowdose","S059","Low dose",5.47197873927079,"CRP","Baseline","Validation","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S059_Baseline_TNFalpha_Lowdose","S059","Low dose",3.68866944167833,"TNF-alpha","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S059_Baseline_Albumin_Lowdose","S059","Low dose",4.50106652692431,"Albumin","Baseline","Validation","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S059_Week8_IL6_Lowdose","S059","Low dose",3.20357786878926,"IL6","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S059_Week8_CRP_Lowdose","S059","Low dose",4.8255033443847,"CRP","Week 8","Validation","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S059_Week8_TNFalpha_Lowdose","S059","Low dose",3.07651722056652,"TNF-alpha","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S059_Week8_Albumin_Lowdose","S059","Low dose",3.91366268171506,"Albumin","Week 8","Validation","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S060_Baseline_IL6_Lowdose","S060","Low dose",2.06977586462595,"IL6","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S060_Baseline_CRP_Lowdose","S060","Low dose",3.76557789774045,"CRP","Baseline","Validation","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S060_Baseline_TNFalpha_Lowdose","S060","Low dose",2.54387685621219,"TNF-alpha","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S060_Baseline_Albumin_Lowdose","S060","Low dose",4.13353853121235,"Albumin","Baseline","Validation","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S060_Week8_IL6_Lowdose","S060","Low dose",1.49610558154002,"IL6","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S060_Week8_CRP_Lowdose","S060","Low dose",2.61071523719475,"CRP","Week 8","Validation","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S060_Week8_TNFalpha_Lowdose","S060","Low dose",2.86570689298144,"TNF-alpha","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S060_Week8_Albumin_Lowdose","S060","Low dose",3.94104823819273,"Albumin","Week 8","Validation","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S061_Baseline_IL6_Highdose","S061","High dose",3.03062041925407,"IL6","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S061_Baseline_CRP_Highdose","S061","High dose",4.40833984543959,"CRP","Baseline","Validation","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S061_Baseline_TNFalpha_Highdose","S061","High dose",4.21963110032081,"TNF-alpha","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S061_Baseline_Albumin_Highdose","S061","High dose",5.19275003397421,"Albumin","Baseline","Validation","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S061_Week8_IL6_Highdose","S061","High dose",4.06888884125639,"IL6","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S061_Week8_CRP_Highdose","S061","High dose",5.15227563850902,"CRP","Week 8","Validation","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S061_Week8_TNFalpha_Highdose","S061","High dose",3.8315398397006,"TNF-alpha","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S061_Week8_Albumin_Highdose","S061","High dose",4.65171423078168,"Albumin","Week 8","Validation","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S062_Baseline_IL6_Highdose","S062","High dose",2.52686387275226,"IL6","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S062_Baseline_CRP_Highdose","S062","High dose",4.26384103731327,"CRP","Baseline","Validation","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S062_Baseline_TNFalpha_Highdose","S062","High dose",3.37811391960381,"TNF-alpha","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S062_Baseline_Albumin_Highdose","S062","High dose",5.18347372105128,"Albumin","Baseline","Validation","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S062_Week8_IL6_Highdose","S062","High dose",2.64275087560708,"IL6","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S062_Week8_CRP_Highdose","S062","High dose",3.97316827177493,"CRP","Week 8","Validation","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S062_Week8_TNFalpha_Highdose","S062","High dose",3.7049624645928,"TNF-alpha","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S062_Week8_Albumin_Highdose","S062","High dose",4.67055597599814,"Albumin","Week 8","Validation","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S063_Baseline_IL6_Highdose","S063","High dose",2.57688827105592,"IL6","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S063_Baseline_CRP_Highdose","S063","High dose",4.39840147623085,"CRP","Baseline","Validation","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S063_Baseline_TNFalpha_Highdose","S063","High dose",3.60799323300776,"TNF-alpha","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S063_Baseline_Albumin_Highdose","S063","High dose",5.28476242447344,"Albumin","Baseline","Validation","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S063_Week8_IL6_Highdose","S063","High dose",4.40072536051852,"IL6","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",TRUE
+"S063_Week8_CRP_Highdose","S063","High dose",4.76801423410874,"CRP","Week 8","Validation","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",TRUE
+"S063_Week8_TNFalpha_Highdose","S063","High dose",2.93095635060137,"TNF-alpha","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S063_Week8_Albumin_Highdose","S063","High dose",5.00540174731434,"Albumin","Week 8","Validation","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S064_Baseline_IL6_Highdose","S064","High dose",3.02264595853074,"IL6","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S064_Baseline_CRP_Highdose","S064","High dose",4.13681140540634,"CRP","Baseline","Validation","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S064_Baseline_TNFalpha_Highdose","S064","High dose",3.34165448684197,"TNF-alpha","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S064_Baseline_Albumin_Highdose","S064","High dose",5.05273688575781,"Albumin","Baseline","Validation","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S064_Week8_IL6_Highdose","S064","High dose",3.35014848820053,"IL6","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S064_Week8_CRP_Highdose","S064","High dose",4.02443794657892,"CRP","Week 8","Validation","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S064_Week8_TNFalpha_Highdose","S064","High dose",3.97334428672572,"TNF-alpha","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S064_Week8_Albumin_Highdose","S064","High dose",4.96946945578995,"Albumin","Week 8","Validation","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S065_Baseline_IL6_Highdose","S065","High dose",3.10880542855938,"IL6","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S065_Baseline_CRP_Highdose","S065","High dose",4.09161785131482,"CRP","Baseline","Validation","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S065_Baseline_TNFalpha_Highdose","S065","High dose",3.93385258880509,"TNF-alpha","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S065_Baseline_Albumin_Highdose","S065","High dose",5.02291920656697,"Albumin","Baseline","Validation","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S065_Week8_IL6_Highdose","S065","High dose",2.29005386290453,"IL6","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S065_Week8_CRP_Highdose","S065","High dose",3.0661355570299,"CRP","Week 8","Validation","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S065_Week8_TNFalpha_Highdose","S065","High dose",NA,"TNF-alpha","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S065_Week8_Albumin_Highdose","S065","High dose",NA,"Albumin","Week 8","Validation","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S066_Baseline_IL6_Highdose","S066","High dose",3.08373779165224,"IL6","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S066_Baseline_CRP_Highdose","S066","High dose",3.18136854304705,"CRP","Baseline","Validation","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S066_Baseline_TNFalpha_Highdose","S066","High dose",3.03370547371652,"TNF-alpha","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S066_Baseline_Albumin_Highdose","S066","High dose",4.60660821780781,"Albumin","Baseline","Validation","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S066_Week8_IL6_Highdose","S066","High dose",2.6329001762848,"IL6","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S066_Week8_CRP_Highdose","S066","High dose",4.09563858069262,"CRP","Week 8","Validation","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S066_Week8_TNFalpha_Highdose","S066","High dose",3.45469651573205,"TNF-alpha","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S066_Week8_Albumin_Highdose","S066","High dose",4.41192280335612,"Albumin","Week 8","Validation","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S067_Baseline_IL6_Highdose","S067","High dose",3.19977491241515,"IL6","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S067_Baseline_CRP_Highdose","S067","High dose",3.97012472442881,"CRP","Baseline","Validation","Progressor","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S067_Baseline_TNFalpha_Highdose","S067","High dose",4.18948031740568,"TNF-alpha","Baseline","Validation","Progressor","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S067_Baseline_Albumin_Highdose","S067","High dose",4.43759455669508,"Albumin","Baseline","Validation","Progressor","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S067_Week8_IL6_Highdose","S067","High dose",3.94444516870667,"IL6","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S067_Week8_CRP_Highdose","S067","High dose",4.69344627821211,"CRP","Week 8","Validation","Progressor","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S067_Week8_TNFalpha_Highdose","S067","High dose",4.22574534476389,"TNF-alpha","Week 8","Validation","Progressor","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S067_Week8_Albumin_Highdose","S067","High dose",4.90180652036669,"Albumin","Week 8","Validation","Progressor","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S068_Baseline_IL6_Highdose","S068","High dose",2.73582483889076,"IL6","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S068_Baseline_CRP_Highdose","S068","High dose",4.72423354294763,"CRP","Baseline","Validation","Responder","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S068_Baseline_TNFalpha_Highdose","S068","High dose",2.72367141555552,"TNF-alpha","Baseline","Validation","Responder","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S068_Baseline_Albumin_Highdose","S068","High dose",5.08229325554042,"Albumin","Baseline","Validation","Responder","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S068_Week8_IL6_Highdose","S068","High dose",2.116457327998,"IL6","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S068_Week8_CRP_Highdose","S068","High dose",2.87758800951587,"CRP","Week 8","Validation","Responder","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S068_Week8_TNFalpha_Highdose","S068","High dose",2.33139300849072,"TNF-alpha","Week 8","Validation","Responder","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S068_Week8_Albumin_Highdose","S068","High dose",5.06905240872942,"Albumin","Week 8","Validation","Responder","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S069_Baseline_IL6_Highdose","S069","High dose",3.44318403615257,"IL6","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S069_Baseline_CRP_Highdose","S069","High dose",4.87908933188118,"CRP","Baseline","Validation","Stable","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S069_Baseline_TNFalpha_Highdose","S069","High dose",4.12893053648629,"TNF-alpha","Baseline","Validation","Stable","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S069_Baseline_Albumin_Highdose","S069","High dose",5.06694389653755,"Albumin","Baseline","Validation","Stable","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S069_Week8_IL6_Highdose","S069","High dose",3.58458290702645,"IL6","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S069_Week8_CRP_Highdose","S069","High dose",4.76906433381365,"CRP","Week 8","Validation","Stable","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S069_Week8_TNFalpha_Highdose","S069","High dose",4.00874390555031,"TNF-alpha","Week 8","Validation","Stable","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S069_Week8_Albumin_Highdose","S069","High dose",5.37054787995032,"Albumin","Week 8","Validation","Stable","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S070_Baseline_IL6_Highdose","S070","High dose",3.15150591400938,"IL6","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S070_Baseline_CRP_Highdose","S070","High dose",4.60239201716677,"CRP","Baseline","Validation","Progressor","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S070_Baseline_TNFalpha_Highdose","S070","High dose",3.40551753595793,"TNF-alpha","Baseline","Validation","Progressor","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S070_Baseline_Albumin_Highdose","S070","High dose",5.42117051332095,"Albumin","Baseline","Validation","Progressor","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S070_Week8_IL6_Highdose","S070","High dose",5.0174215961785,"IL6","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_il6",TRUE
+"S070_Week8_CRP_Highdose","S070","High dose",6.36800374839358,"CRP","Week 8","Validation","Progressor","Batch 2","Week 8","mg/L","acute_phase_crp",TRUE
+"S070_Week8_TNFalpha_Highdose","S070","High dose",4.34438099566986,"TNF-alpha","Week 8","Validation","Progressor","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S070_Week8_Albumin_Highdose","S070","High dose",4.74883286138992,"Albumin","Week 8","Validation","Progressor","Batch 2","Week 8","g/L","serum_albumin",FALSE
+"S071_Baseline_IL6_Highdose","S071","High dose",3.04907338790151,"IL6","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_il6",FALSE
+"S071_Baseline_CRP_Highdose","S071","High dose",3.7699772756175,"CRP","Baseline","Validation","Responder","Batch 1","Baseline","mg/L","acute_phase_crp",FALSE
+"S071_Baseline_TNFalpha_Highdose","S071","High dose",3.75924442434327,"TNF-alpha","Baseline","Validation","Responder","Batch 1","Baseline","pg/mL","cytokine_tnf",FALSE
+"S071_Baseline_Albumin_Highdose","S071","High dose",5.14374902907361,"Albumin","Baseline","Validation","Responder","Batch 1","Baseline","g/L","serum_albumin",FALSE
+"S071_Week8_IL6_Highdose","S071","High dose",1.95871524424708,"IL6","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_il6",FALSE
+"S071_Week8_CRP_Highdose","S071","High dose",3.24397612816208,"CRP","Week 8","Validation","Responder","Batch 1","Week 8","mg/L","acute_phase_crp",FALSE
+"S071_Week8_TNFalpha_Highdose","S071","High dose",3.20893693117367,"TNF-alpha","Week 8","Validation","Responder","Batch 1","Week 8","pg/mL","cytokine_tnf",FALSE
+"S071_Week8_Albumin_Highdose","S071","High dose",4.65806484453678,"Albumin","Week 8","Validation","Responder","Batch 1","Week 8","g/L","serum_albumin",FALSE
+"S072_Baseline_IL6_Highdose","S072","High dose",3.18210083275018,"IL6","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_il6",FALSE
+"S072_Baseline_CRP_Highdose","S072","High dose",3.71103913211345,"CRP","Baseline","Validation","Stable","Batch 2","Baseline","mg/L","acute_phase_crp",FALSE
+"S072_Baseline_TNFalpha_Highdose","S072","High dose",2.55641615127258,"TNF-alpha","Baseline","Validation","Stable","Batch 2","Baseline","pg/mL","cytokine_tnf",FALSE
+"S072_Baseline_Albumin_Highdose","S072","High dose",4.97513314852515,"Albumin","Baseline","Validation","Stable","Batch 2","Baseline","g/L","serum_albumin",FALSE
+"S072_Week8_IL6_Highdose","S072","High dose",2.2742400389649,"IL6","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_il6",FALSE
+"S072_Week8_CRP_Highdose","S072","High dose",3.59953359920071,"CRP","Week 8","Validation","Stable","Batch 2","Week 8","mg/L","acute_phase_crp",FALSE
+"S072_Week8_TNFalpha_Highdose","S072","High dose",2.26228929687614,"TNF-alpha","Week 8","Validation","Stable","Batch 2","Week 8","pg/mL","cytokine_tnf",FALSE
+"S072_Week8_Albumin_Highdose","S072","High dose",4.86185030527936,"Albumin","Week 8","Validation","Stable","Batch 2","Week 8","g/L","serum_albumin",FALSE

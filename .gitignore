@@ -1,0 +1,17 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local planning and Codex/superpowers state
+.superpowers/
+docs/superpowers/
+
+# R build/check artifacts
+*.tar.gz
+*.Rcheck/
+
+# Local runtime noise
+*.log

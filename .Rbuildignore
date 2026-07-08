@@ -1,0 +1,7 @@
+^\.superpowers$
+^\.superpowers/
+^docs/superpowers$
+^.*\.Rproj$
+^\.Rproj\.user$
+^violinplus_.*\.tar\.gz$
+^violinplus\.Rcheck$

@@ -1,0 +1,24 @@
+Package: violinplus
+Type: Package
+Title: Template-Driven Violin and Distribution Plots
+Version: 0.1.0
+Authors@R: person("xiaoli", role = c("aut", "cre"), email = "xiaoli@example.com")
+Description: Publication-ready violin, box, raw-point, raincloud, significance,
+    paired, and faceted distribution plot templates for R and BioAgentsAI public
+    plotting workflows.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ggplot2,
+    rlang,
+    stats,
+    utils,
+    grDevices
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
