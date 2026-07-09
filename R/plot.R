@@ -122,7 +122,12 @@ violin_plot <- function(data,
 
   p <- p +
     ggplot2::scale_fill_manual(values = fill_values) +
-    ggplot2::scale_color_manual(values = fill_values) +
+    ggplot2::scale_color_manual(values = fill_values, guide = "none") +
+    ggplot2::guides(fill = ggplot2::guide_legend(
+      nrow = 1,
+      byrow = TRUE,
+      override.aes = list(alpha = 0.85, color = unname(pal[["line"]]))
+    )) +
     ggplot2::labs(
       title = title,
       subtitle = subtitle,
@@ -133,7 +138,7 @@ violin_plot <- function(data,
       color = fill_col
     ) +
     theme_violinplus(base_size = resolved$base_size) +
-    ggplot2::theme(legend.position = if (isTRUE(resolved$fill_grouped)) "right" else "none") +
+    theme_violinplus_legend(resolved) +
     ggplot2::coord_cartesian(clip = "off")
 
   attr(p, "violinplus_params") <- resolved
@@ -483,4 +488,22 @@ theme_violinplus <- function(base_size = 10.5, base_family = "") {
       strip.background = ggplot2::element_rect(fill = "#F5F7FA", color = "#D5DAE3", linewidth = 0.32),
       strip.text = ggplot2::element_text(color = "#27313D", face = "bold")
     )
+}
+
+theme_violinplus_legend <- function(resolved) {
+  if (!isTRUE(resolved$fill_grouped)) {
+    return(ggplot2::theme(legend.position = "none"))
+  }
+  ggplot2::theme(
+    legend.position = "bottom",
+    legend.direction = "horizontal",
+    legend.justification = "center",
+    legend.title = ggplot2::element_text(color = "#27313D", size = resolved$base_size * 0.86),
+    legend.text = ggplot2::element_text(color = "#475467", size = resolved$base_size * 0.82),
+    legend.key.height = grid::unit(0.28, "cm"),
+    legend.key.width = grid::unit(0.42, "cm"),
+    legend.spacing.x = grid::unit(0.14, "cm"),
+    legend.box.spacing = grid::unit(0.08, "cm"),
+    legend.margin = ggplot2::margin(t = 2, r = 0, b = 0, l = 0)
+  )
 }
