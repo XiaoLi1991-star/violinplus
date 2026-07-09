@@ -69,3 +69,24 @@ Each template uses a different journal-inspired default palette, including
 NPG, Lancet, NEJM, JAMA, JCO, AAAS, Nature, and Cell-inspired combinations, so
 template cards look visually distinct while staying close to common scientific
 figure styles.
+
+## Template gallery
+
+![violinplus template contact sheet](examples/violinplus-contact-sheet.png)
+
+| Template | Preview |
+| --- | --- |
+| `violin_box` | ![violin_box](examples/violinplus-violin_box.png) |
+| `violin_jitter` | ![violin_jitter](examples/violinplus-violin_jitter.png) |
+| `box_jitter` | ![box_jitter](examples/violinplus-box_jitter.png) |
+| `violin_only` | ![violin_only](examples/violinplus-violin_only.png) |
+| `raincloud` | ![raincloud](examples/violinplus-raincloud.png) |
+| `half_violin_box` | ![half_violin_box](examples/violinplus-half_violin_box.png) |
+| `beeswarm_summary` | ![beeswarm_summary](examples/violinplus-beeswarm_summary.png) |
+| `sina_density` | ![sina_density](examples/violinplus-sina_density.png) |
+| `two_group_sig` | ![two_group_sig](examples/violinplus-two_group_sig.png) |
+| `multi_group_sig` | ![multi_group_sig](examples/violinplus-multi_group_sig.png) |
+| `violin_box_letter` | ![violin_box_letter](examples/violinplus-violin_box_letter.png) |
+| `split_violin_letter` | ![split_violin_letter](examples/violinplus-split_violin_letter.png) |
+| `paired_change` | ![paired_change](examples/violinplus-paired_change.png) |
+| `facet_grid` | ![facet_grid](examples/violinplus-facet_grid.png) |
