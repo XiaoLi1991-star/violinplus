@@ -16,6 +16,14 @@ check_positive_number <- function(x, arg) {
   invisible(x)
 }
 
+check_positive_integer <- function(x, arg) {
+  value <- suppressWarnings(as.integer(x))
+  if (!is.numeric(x) || length(x) != 1L || is.na(value) || !is.finite(value) || value <= 0 || value != x) {
+    stop("`", arg, "` must be a positive integer.", call. = FALSE)
+  }
+  value
+}
+
 as_column_name <- function(x, arg) {
   check_scalar_string(x, arg)
 }

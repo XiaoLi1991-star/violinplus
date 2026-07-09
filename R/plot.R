@@ -12,6 +12,9 @@
 #' @param title,subtitle,caption Plot text.
 #' @param xlab,ylab Axis labels.
 #' @param show_points,show_box Optional layer overrides. Defaults come from template and inspection.
+#' @param legend_position Optional legend position: `"none"`, `"bottom"`, `"right"`, `"left"`, or `"top"`.
+#'   When `NULL`, grouped-fill plots use `"bottom"` and single-fill plots use `"none"`.
+#' @param facet_cols Optional number of facet columns. When `NULL`, a compact automatic value is used.
 #' @param width,height Output dimensions or `"auto"` for attached metadata.
 #' @param print_params Print resolved parameters for reproducible platform tuning.
 #' @param ... Reserved for future template controls.
@@ -35,6 +38,8 @@ violin_plot <- function(data,
                         ylab = NULL,
                         show_points = NULL,
                         show_box = NULL,
+                        legend_position = NULL,
+                        facet_cols = NULL,
                         width = "auto",
                         height = "auto",
                         print_params = TRUE,
@@ -82,6 +87,10 @@ violin_plot <- function(data,
   resolved$x <- x
   resolved$fill_col <- fill_col
   resolved$fill_grouped <- !identical(fill_col, x)
+  resolved$legend_position <- resolve_legend_position(legend_position, resolved$fill_grouped)
+  if (!is.null(facet_cols)) {
+    resolved$facet_cols <- check_positive_integer(facet_cols, "facet_cols")
+  }
   resolved$palette <- palette
   resolved$width <- resolve_auto_dimension(width, resolved$width, "width")
   resolved$height <- resolve_auto_dimension(height, resolved$height, "height")
@@ -123,11 +132,7 @@ violin_plot <- function(data,
   p <- p +
     ggplot2::scale_fill_manual(values = fill_values) +
     ggplot2::scale_color_manual(values = fill_values, guide = "none") +
-    ggplot2::guides(fill = ggplot2::guide_legend(
-      nrow = 1,
-      byrow = TRUE,
-      override.aes = list(alpha = 0.85, color = unname(pal[["line"]]))
-    )) +
+    ggplot2::guides(fill = legend_guide(resolved, pal)) +
     ggplot2::labs(
       title = title,
       subtitle = subtitle,
@@ -491,13 +496,14 @@ theme_violinplus <- function(base_size = 10.5, base_family = "") {
 }
 
 theme_violinplus_legend <- function(resolved) {
-  if (!isTRUE(resolved$fill_grouped)) {
+  if (identical(resolved$legend_position, "none")) {
     return(ggplot2::theme(legend.position = "none"))
   }
+  horizontal <- resolved$legend_position %in% c("bottom", "top")
   ggplot2::theme(
-    legend.position = "bottom",
-    legend.direction = "horizontal",
-    legend.justification = "center",
+    legend.position = resolved$legend_position,
+    legend.direction = if (horizontal) "horizontal" else "vertical",
+    legend.justification = if (horizontal) "center" else "top",
     legend.title = ggplot2::element_text(color = "#27313D", size = resolved$base_size * 0.86),
     legend.text = ggplot2::element_text(color = "#475467", size = resolved$base_size * 0.82),
     legend.key.height = grid::unit(0.28, "cm"),
@@ -506,4 +512,26 @@ theme_violinplus_legend <- function(resolved) {
     legend.box.spacing = grid::unit(0.08, "cm"),
     legend.margin = ggplot2::margin(t = 2, r = 0, b = 0, l = 0)
   )
+}
+
+resolve_legend_position <- function(legend_position, fill_grouped) {
+  if (is.null(legend_position)) {
+    return(if (isTRUE(fill_grouped)) "bottom" else "none")
+  }
+  legend_position <- check_scalar_string(legend_position, "legend_position")
+  choices <- c("none", "bottom", "right", "left", "top")
+  match.arg(legend_position, choices)
+}
+
+legend_guide <- function(resolved, pal) {
+  args <- list(
+    byrow = TRUE,
+    override.aes = list(alpha = 0.85, color = unname(pal[["line"]]))
+  )
+  if (resolved$legend_position %in% c("bottom", "top")) {
+    args$nrow <- 1
+  } else {
+    args$ncol <- 1
+  }
+  do.call(ggplot2::guide_legend, args)
 }

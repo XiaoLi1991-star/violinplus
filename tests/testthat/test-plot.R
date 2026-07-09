@@ -75,6 +75,43 @@ test_that("violin_plot can color by fill_col independently from x", {
   expect_equal(p$labels$fill, "group")
 })
 
+test_that("violin_plot exposes legend position controls", {
+  data <- data.frame(
+    timepoint = rep(c("Baseline", "Week 8"), each = 12),
+    group = rep(rep(c("Control", "Treatment"), each = 6), 2),
+    value = rnorm(24)
+  )
+
+  default_plot <- violin_plot(data, x = "timepoint", y = "value", fill_col = "group", print_params = FALSE)
+  right_plot <- violin_plot(data, x = "timepoint", y = "value", fill_col = "group", legend_position = "right", print_params = FALSE)
+  none_plot <- violin_plot(data, x = "timepoint", y = "value", fill_col = "group", legend_position = "none", print_params = FALSE)
+  ungrouped_plot <- violin_plot(data, x = "group", y = "value", print_params = FALSE)
+
+  expect_equal(attr(default_plot, "violinplus_params")$legend_position, "bottom")
+  expect_equal(attr(right_plot, "violinplus_params")$legend_position, "right")
+  expect_equal(attr(none_plot, "violinplus_params")$legend_position, "none")
+  expect_equal(attr(ungrouped_plot, "violinplus_params")$legend_position, "none")
+  expect_equal(right_plot$theme$legend.position, "right")
+  expect_equal(none_plot$theme$legend.position, "none")
+})
+
+test_that("violin_plot exposes facet column controls", {
+  data <- data.frame(
+    group = rep(c("A", "B"), each = 24),
+    value = rnorm(48),
+    marker = rep(c("M1", "M2", "M3", "M4"), 12)
+  )
+
+  p <- violin_plot(data, x = "group", y = "value", facet = "marker", facet_cols = 1, print_params = FALSE)
+
+  expect_equal(attr(p, "violinplus_params")$facet_cols, 1L)
+  expect_equal(p$facet$params$ncol, 1L)
+  expect_error(
+    violin_plot(data, x = "group", y = "value", facet = "marker", facet_cols = 1.5, print_params = FALSE),
+    "facet_cols"
+  )
+})
+
 test_that("violin_plot validates fill_col", {
   data <- data.frame(group = rep(c("A", "B"), each = 6), value = rnorm(12))
 

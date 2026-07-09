@@ -36,10 +36,19 @@ by changing only the template and mapping parameters.
 violin_template_examples()[, c("template", "claim", "filter_label", "x", "fill_col", "facet")]
 ```
 
-Use `fill_col` when the x-axis grouping and color grouping should be different:
+Use `fill_col` when the x-axis grouping and color grouping should be different.
+Legend position and facet columns are explicit controls:
 
 ```r
-violin_plot(data, x = "pair", y = "value", fill_col = "group")
+violin_plot(
+  data,
+  x = "pair",
+  y = "value",
+  fill_col = "group",
+  legend_position = "bottom",
+  facet = "facet",
+  facet_cols = 2
+)
 ```
 
 Available templates:
