@@ -22,6 +22,7 @@ violin_plot(
   show_box = NULL,
   legend_position = NULL,
   facet_cols = NULL,
+  orientation = c("vertical", "horizontal"),
   width = "auto",
   height = "auto",
   print_params = TRUE,
@@ -43,6 +44,7 @@ violin_plot(
 \item{show_points, show_box}{Optional layer overrides. Defaults come from template and inspection.}
 \item{legend_position}{Optional legend position: \code{"none"}, \code{"bottom"}, \code{"right"}, \code{"left"}, or \code{"top"}. When \code{NULL}, grouped-fill plots use \code{"bottom"} and single-fill plots use \code{"none"}.}
 \item{facet_cols}{Optional number of facet columns. When \code{NULL}, a compact automatic value is used.}
+\item{orientation}{Plot orientation, either \code{"vertical"} or \code{"horizontal"}.}
 \item{width, height}{Output dimensions or \code{"auto"} for attached metadata.}
 \item{print_params}{Print resolved parameters for reproducible platform tuning.}
 \item{...}{Reserved for future template controls.}

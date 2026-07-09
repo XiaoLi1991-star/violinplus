@@ -47,7 +47,8 @@ violin_plot(
   fill_col = "group",
   legend_position = "bottom",
   facet = "facet",
-  facet_cols = 2
+  facet_cols = 2,
+  orientation = "horizontal"
 )
 ```
 

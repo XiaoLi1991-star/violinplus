@@ -180,6 +180,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "IL6 separates response classes",
       ylab = "IL6 (pg/mL)"
     ),
@@ -193,6 +194,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "Validation CRP by time and dose",
       ylab = "CRP (mg/L)"
     ),
@@ -206,6 +208,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "Discovery albumin shift",
       ylab = "Albumin (g/L)"
     ),
@@ -219,6 +222,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "TNF-alpha distribution",
       ylab = "TNF-alpha (pg/mL)"
     ),
@@ -232,6 +236,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "IL6 by response stratum",
       ylab = "IL6 (pg/mL)"
     ),
@@ -245,6 +250,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "Compact CRP treatment profile",
       ylab = "CRP (mg/L)"
     ),
@@ -258,6 +264,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "horizontal",
       title = "TNF-alpha response spread",
       ylab = "TNF-alpha (pg/mL)"
     ),
@@ -271,6 +278,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "Cohort-level IL6 replication",
       ylab = "IL6 (pg/mL)"
     ),
@@ -284,6 +292,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "horizontal",
       title = "Progressor IL6 elevation",
       ylab = "IL6 (pg/mL)"
     ),
@@ -297,6 +306,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "CRP graded treatment response",
       ylab = "CRP (mg/L)"
     ),
@@ -310,6 +320,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "vertical",
       title = "Albumin treatment letters",
       ylab = "Albumin (g/L)"
     ),
@@ -323,6 +334,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "",
       subject = "",
+      orientation = "horizontal",
       title = "TNF-alpha letter groups",
       ylab = "TNF-alpha (pg/mL)"
     ),
@@ -336,6 +348,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "facet",
       subject = "subject",
+      orientation = "vertical",
       title = "Responder biomarker trajectories",
       ylab = "Normalized biomarker value"
     ),
@@ -349,6 +362,7 @@ violin_template_examples <- function() {
       y = "value",
       facet = "facet",
       subject = "",
+      orientation = "vertical",
       title = "Marker treatment trajectories",
       ylab = "Normalized biomarker value"
     )
@@ -362,6 +376,7 @@ violin_template_examples <- function() {
     y = vapply(rows, `[[`, character(1), "y"),
     facet = vapply(rows, `[[`, character(1), "facet"),
     subject = vapply(rows, `[[`, character(1), "subject"),
+    orientation = vapply(rows, `[[`, character(1), "orientation"),
     title = vapply(rows, `[[`, character(1), "title"),
     ylab = vapply(rows, `[[`, character(1), "ylab"),
     stringsAsFactors = FALSE

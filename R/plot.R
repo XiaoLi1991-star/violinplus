@@ -15,6 +15,7 @@
 #' @param legend_position Optional legend position: `"none"`, `"bottom"`, `"right"`, `"left"`, or `"top"`.
 #'   When `NULL`, grouped-fill plots use `"bottom"` and single-fill plots use `"none"`.
 #' @param facet_cols Optional number of facet columns. When `NULL`, a compact automatic value is used.
+#' @param orientation Plot orientation, either `"vertical"` or `"horizontal"`.
 #' @param width,height Output dimensions or `"auto"` for attached metadata.
 #' @param print_params Print resolved parameters for reproducible platform tuning.
 #' @param ... Reserved for future template controls.
@@ -40,6 +41,7 @@ violin_plot <- function(data,
                         show_box = NULL,
                         legend_position = NULL,
                         facet_cols = NULL,
+                        orientation = c("vertical", "horizontal"),
                         width = "auto",
                         height = "auto",
                         print_params = TRUE,
@@ -57,6 +59,7 @@ violin_plot <- function(data,
   template_def <- resolve_violin_template(template)
   palette <- palette %||% template_def$palette
   pal <- resolve_violin_palette(palette)
+  orientation <- resolve_orientation(orientation)
   p_label_missing <- missing(p_label)
   p_label <- match.arg(p_label)
   if (isTRUE(p_label_missing) && identical(template_def$default_params$annotation, "letters")) {
@@ -91,6 +94,7 @@ violin_plot <- function(data,
   if (!is.null(facet_cols)) {
     resolved$facet_cols <- check_positive_integer(facet_cols, "facet_cols")
   }
+  resolved$orientation <- orientation
   resolved$palette <- palette
   resolved$width <- resolve_auto_dimension(width, resolved$width, "width")
   resolved$height <- resolve_auto_dimension(height, resolved$height, "height")
@@ -144,7 +148,7 @@ violin_plot <- function(data,
     ) +
     theme_violinplus(base_size = resolved$base_size) +
     theme_violinplus_legend(resolved) +
-    ggplot2::coord_cartesian(clip = "off")
+    plot_coordinate(resolved)
 
   attr(p, "violinplus_params") <- resolved
   p
@@ -523,6 +527,18 @@ resolve_legend_position <- function(legend_position, fill_grouped) {
   match.arg(legend_position, choices)
 }
 
+resolve_orientation <- function(orientation) {
+  choices <- c("vertical", "horizontal")
+  if (is.character(orientation) && length(orientation) > 1L) {
+    orientation <- match.arg(orientation, choices)
+  }
+  orientation <- check_scalar_string(orientation, "orientation")
+  if (!orientation %in% choices) {
+    stop("`orientation` must be one of: ", paste(choices, collapse = ", "), ".", call. = FALSE)
+  }
+  orientation
+}
+
 legend_guide <- function(resolved, pal) {
   args <- list(
     byrow = TRUE,
@@ -534,4 +550,11 @@ legend_guide <- function(resolved, pal) {
     args$ncol <- 1
   }
   do.call(ggplot2::guide_legend, args)
+}
+
+plot_coordinate <- function(resolved) {
+  if (identical(resolved$orientation, "horizontal")) {
+    return(ggplot2::coord_flip(clip = "off"))
+  }
+  ggplot2::coord_cartesian(clip = "off")
 }

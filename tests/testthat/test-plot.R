@@ -112,6 +112,21 @@ test_that("violin_plot exposes facet column controls", {
   )
 })
 
+test_that("violin_plot exposes horizontal orientation", {
+  data <- data.frame(group = rep(c("A", "B", "C"), each = 8), value = rnorm(24))
+
+  horizontal <- violin_plot(data, x = "group", y = "value", orientation = "horizontal", print_params = FALSE)
+  vertical <- violin_plot(data, x = "group", y = "value", print_params = FALSE)
+
+  expect_equal(attr(horizontal, "violinplus_params")$orientation, "horizontal")
+  expect_equal(attr(vertical, "violinplus_params")$orientation, "vertical")
+  expect_true(inherits(horizontal$coordinates, "CoordFlip"))
+  expect_error(
+    violin_plot(data, x = "group", y = "value", orientation = "sideways", print_params = FALSE),
+    "orientation"
+  )
+})
+
 test_that("violin_plot validates fill_col", {
   data <- data.frame(group = rep(c("A", "B"), each = 6), value = rnorm(12))
 

@@ -73,5 +73,7 @@ test_that("template examples define one-table scientific stories", {
   expect_true(any(examples$x == "pair"))
   expect_true(any(nzchar(examples$fill_col)))
   expect_true(any(nzchar(examples$facet)))
+  expect_true(all(examples$orientation %in% c("vertical", "horizontal")))
+  expect_true(any(examples$orientation == "horizontal"))
   expect_true(any(grepl("letter", examples$template)))
 })

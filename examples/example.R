@@ -17,6 +17,7 @@ for (idx in seq_len(nrow(example_map))) {
     facet = if (nzchar(example_map$facet[[idx]])) example_map$facet[[idx]] else NULL,
     subject = if (nzchar(example_map$subject[[idx]])) example_map$subject[[idx]] else NULL,
     template = template_id,
+    orientation = example_map$orientation[[idx]],
     title = example_map$title[[idx]],
     ylab = example_map$ylab[[idx]],
     print_params = TRUE
