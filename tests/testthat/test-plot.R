@@ -112,6 +112,24 @@ test_that("violin_plot exposes facet column controls", {
   )
 })
 
+test_that("faceted plots use framed panels and framed strip headers", {
+  data <- data.frame(
+    group = rep(c("A", "B"), each = 24),
+    value = rnorm(48),
+    marker = rep(c("M1", "M2", "M3", "M4"), 12)
+  )
+
+  faceted <- violin_plot(data, x = "group", y = "value", facet = "marker", print_params = FALSE)
+  plain <- violin_plot(data, x = "group", y = "value", print_params = FALSE)
+
+  expect_s3_class(faceted$theme$panel.border, "element_rect")
+  expect_equal(faceted$theme$panel.border$colour, "#27313D")
+  expect_equal(faceted$theme$panel.border$fill, NA)
+  expect_s3_class(faceted$theme$strip.background, "element_rect")
+  expect_equal(faceted$theme$strip.background$colour, "#27313D")
+  expect_s3_class(plain$theme$panel.border, "element_blank")
+})
+
 test_that("violin_plot exposes horizontal orientation", {
   data <- data.frame(group = rep(c("A", "B", "C"), each = 8), value = rnorm(24))
 

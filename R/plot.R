@@ -147,6 +147,7 @@ violin_plot <- function(data,
       color = fill_col
     ) +
     theme_violinplus(base_size = resolved$base_size) +
+    theme_violinplus_facets(!is.null(facet)) +
     theme_violinplus_legend(resolved) +
     plot_coordinate(resolved)
 
@@ -496,7 +497,17 @@ theme_violinplus <- function(base_size = 10.5, base_family = "") {
       legend.position = "none",
       strip.background = ggplot2::element_rect(fill = "#F5F7FA", color = "#D5DAE3", linewidth = 0.32),
       strip.text = ggplot2::element_text(color = "#27313D", face = "bold")
-    )
+  )
+}
+
+theme_violinplus_facets <- function(enabled = FALSE) {
+  if (!isTRUE(enabled)) {
+    return(ggplot2::theme())
+  }
+  ggplot2::theme(
+    panel.border = ggplot2::element_rect(fill = NA, color = "#27313D", linewidth = 0.35),
+    strip.background = ggplot2::element_rect(fill = "#F5F7FA", color = "#27313D", linewidth = 0.35)
+  )
 }
 
 theme_violinplus_legend <- function(resolved) {
