@@ -145,6 +145,27 @@ test_that("violin_plot exposes horizontal orientation", {
   )
 })
 
+test_that("paired_change honors an explicit request to hide points", {
+  data <- data.frame(
+    subject = rep(sprintf("P%02d", 1:8), each = 2),
+    timepoint = rep(c("Baseline", "Week 8"), 8),
+    value = c(rnorm(8, 2), rnorm(8, 3))
+  )
+
+  plot <- violin_plot(
+    data,
+    x = "timepoint",
+    y = "value",
+    subject = "subject",
+    template = "paired_change",
+    show_points = FALSE,
+    print_params = FALSE
+  )
+
+  expect_false(attr(plot, "violinplus_params")$show_points)
+  expect_false(any(vapply(plot$layers, function(layer) inherits(layer$geom, "GeomPoint"), logical(1))))
+})
+
 test_that("violin_plot validates fill_col", {
   data <- data.frame(group = rep(c("A", "B"), each = 6), value = rnorm(12))
 

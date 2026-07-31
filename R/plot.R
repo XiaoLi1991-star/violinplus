@@ -186,7 +186,7 @@ add_template_layers <- function(p, data, x, y, fill_col, subject, template_id, r
     p <- p + ggplot2::geom_line(ggplot2::aes(group = .data[[line_group]]), color = "#8A93A3", alpha = 0.42, linewidth = 0.32)
   }
 
-  if (isTRUE(resolved$show_points) || template_id %in% c("beeswarm_summary", "sina_density", "paired_change")) {
+  if (isTRUE(resolved$show_points) || template_id %in% c("beeswarm_summary", "sina_density")) {
     p <- add_point_layer(p, template_id, resolved)
   }
 
