@@ -182,6 +182,32 @@ test_that("paired_change honors an explicit request to hide points", {
   expect_false(any(vapply(plot$layers, function(layer) inherits(layer$geom, "GeomPoint"), logical(1))))
 })
 
+test_that("paired_change keeps subjects connected when the x column is named group", {
+  data <- data.frame(
+    subject = rep(sprintf("P%02d", 1:8), each = 2),
+    group = rep(c("Baseline", "Week 8"), 8),
+    fill = rep(rep(c("Control", "Treatment"), each = 4), each = 2),
+    value = seq_len(16)
+  )
+
+  plot <- violin_plot(
+    data,
+    x = "group",
+    y = "value",
+    fill_col = "fill",
+    subject = "subject",
+    template = "paired_change",
+    print_params = FALSE
+  )
+  line_layer <- which(vapply(plot$layers, function(layer) inherits(layer$geom, "GeomLine"), logical(1)))
+  built <- ggplot2::ggplot_build(plot)
+  observations_per_line <- table(built$data[[line_layer]]$group)
+
+  expect_length(line_layer, 1L)
+  expect_true(length(observations_per_line) > 0L)
+  expect_true(all(observations_per_line == 2L))
+})
+
 test_that("violin_plot validates fill_col", {
   data <- data.frame(group = rep(c("A", "B"), each = 6), value = rnorm(12))
 

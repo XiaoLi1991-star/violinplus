@@ -81,8 +81,8 @@ violin_plot <- function(data,
     if (!is.null(facet)) {
       line_parts[[length(line_parts) + 1L]] <- plot_data[[facet]]
     }
-    if ("group" %in% names(plot_data)) {
-      line_parts[[length(line_parts) + 1L]] <- plot_data[["group"]]
+    if (!identical(fill_col, x) && !identical(fill_col, subject)) {
+      line_parts[[length(line_parts) + 1L]] <- plot_data[[fill_col]]
     }
     plot_data$.violinplus_line_group <- interaction(line_parts, drop = TRUE, sep = "__")
   }
