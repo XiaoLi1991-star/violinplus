@@ -14,6 +14,7 @@
 #' @param show_points,show_box Optional layer overrides. Defaults come from template and inspection.
 #' @param legend_position Optional legend position: `"none"`, `"bottom"`, `"right"`, `"left"`, or `"top"`.
 #'   When `NULL`, grouped-fill plots use `"bottom"` and single-fill plots use `"none"`.
+#' @param legend_title Optional legend title. When `NULL`, the `fill_col` name is used.
 #' @param facet_cols Optional number of facet columns. When `NULL`, a compact automatic value is used.
 #' @param orientation Plot orientation, either `"vertical"` or `"horizontal"`.
 #' @param width,height Output dimensions or `"auto"` for attached metadata.
@@ -40,6 +41,7 @@ violin_plot <- function(data,
                         show_points = NULL,
                         show_box = NULL,
                         legend_position = NULL,
+                        legend_title = NULL,
                         facet_cols = NULL,
                         orientation = c("vertical", "horizontal"),
                         width = "auto",
@@ -91,6 +93,7 @@ violin_plot <- function(data,
   resolved$fill_col <- fill_col
   resolved$fill_grouped <- !identical(fill_col, x)
   resolved$legend_position <- resolve_legend_position(legend_position, resolved$fill_grouped)
+  resolved$legend_title <- if (is.null(legend_title)) fill_col else check_scalar_string(legend_title, "legend_title")
   if (!is.null(facet_cols)) {
     resolved$facet_cols <- check_positive_integer(facet_cols, "facet_cols")
   }
@@ -143,8 +146,8 @@ violin_plot <- function(data,
       caption = caption,
       x = xlab %||% x,
       y = ylab %||% y,
-      fill = fill_col,
-      color = fill_col
+      fill = resolved$legend_title,
+      color = resolved$legend_title
     ) +
     theme_violinplus(base_size = resolved$base_size) +
     theme_violinplus_facets(!is.null(facet)) +

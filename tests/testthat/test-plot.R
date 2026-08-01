@@ -85,14 +85,30 @@ test_that("violin_plot exposes legend position controls", {
   default_plot <- violin_plot(data, x = "timepoint", y = "value", fill_col = "group", print_params = FALSE)
   right_plot <- violin_plot(data, x = "timepoint", y = "value", fill_col = "group", legend_position = "right", print_params = FALSE)
   none_plot <- violin_plot(data, x = "timepoint", y = "value", fill_col = "group", legend_position = "none", print_params = FALSE)
+  titled_plot <- violin_plot(
+    data,
+    x = "timepoint",
+    y = "value",
+    fill_col = "group",
+    legend_title = "Treatment arm",
+    print_params = FALSE
+  )
   ungrouped_plot <- violin_plot(data, x = "group", y = "value", print_params = FALSE)
 
   expect_equal(attr(default_plot, "violinplus_params")$legend_position, "bottom")
+  expect_equal(attr(default_plot, "violinplus_params")$legend_title, "group")
   expect_equal(attr(right_plot, "violinplus_params")$legend_position, "right")
   expect_equal(attr(none_plot, "violinplus_params")$legend_position, "none")
+  expect_equal(attr(titled_plot, "violinplus_params")$legend_title, "Treatment arm")
   expect_equal(attr(ungrouped_plot, "violinplus_params")$legend_position, "none")
+  expect_equal(titled_plot$labels$fill, "Treatment arm")
+  expect_equal(titled_plot$labels$colour, "Treatment arm")
   expect_equal(right_plot$theme$legend.position, "right")
   expect_equal(none_plot$theme$legend.position, "none")
+  expect_error(
+    violin_plot(data, x = "timepoint", y = "value", fill_col = "group", legend_title = c("A", "B"), print_params = FALSE),
+    "legend_title"
+  )
 })
 
 test_that("violin_plot exposes facet column controls", {

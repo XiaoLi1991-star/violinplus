@@ -46,6 +46,7 @@ violin_plot(
   y = "value",
   fill_col = "group",
   legend_position = "bottom",
+  legend_title = "Treatment arm",
   facet = "facet",
   facet_cols = 2,
   orientation = "horizontal"
